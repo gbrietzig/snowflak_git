@@ -1,0 +1,2062 @@
+[0m10:58:45.149584 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CA94240440>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CA95073390>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CA950739D0>]}
+
+
+============================== 10:58:45.157546 | e7dbab18-2687-455a-9063-9049046713cd ==============================
+[0m10:58:45.157546 [info ] [MainThread]: Running with dbt=1.10.11
+[0m10:58:45.159189 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'target_path': 'None', 'cache_selected_only': 'False', 'warn_error': 'None', 'empty': 'None', 'debug': 'False', 'static_parser': 'True', 'log_cache_events': 'False', 'profiles_dir': 'C:\\Users\\gbrietzig\\OneDrive - MARTINELLI ADVOGADOS\\Área de Trabalho\\ambiente\\dbt\\meu_projeto', 'log_format': 'default', 'quiet': 'False', 'use_colors': 'True', 'partial_parse': 'True', 'version_check': 'True', 'log_path': 'C:\\Users\\gbrietzig\\OneDrive - MARTINELLI ADVOGADOS\\Área de Trabalho\\ambiente\\dbt\\meu_projeto\\logs', 'introspect': 'True', 'no_print': 'None', 'fail_fast': 'False', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'invocation_command': 'dbt debug', 'send_anonymous_usage_stats': 'True', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'write_json': 'True'}
+[0m10:58:45.203680 [info ] [MainThread]: dbt version: 1.10.11
+[0m10:58:45.204765 [info ] [MainThread]: python version: 3.13.2
+[0m10:58:45.206383 [info ] [MainThread]: python path: C:\Users\gbrietzig\OneDrive - MARTINELLI ADVOGADOS\Área de Trabalho\ambiente\venv_ambiente\Scripts\python.exe
+[0m10:58:45.207759 [info ] [MainThread]: os info: Windows-11-10.0.22631-SP0
+[0m10:58:45.210947 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Syntax error near line 8
+  ------------------------------
+  5  |       type: snowflake
+  6  |       account: ROVQFNO-HYA59989
+  7  |       user: GUSTAVO.BRIETZIG
+  8  |       password: @Senha12345678
+  9  |       role: ACCOUNTADMIN
+  10 |       database: ITAX
+  11 |       warehouse: COMPUTE_WH
+  
+  Raw Error:
+  ------------------------------
+  while scanning for the next token
+  found character that cannot start any token
+    in "<unicode string>", line 8, column 17
+[0m10:58:45.216336 [debug] [MainThread]: Command `dbt debug` failed at 10:58:45.216028 after 0.23 seconds
+[0m10:58:45.216770 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CA94F2BA80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CA94F4EB10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CA94F3ACF0>]}
+[0m10:58:45.217134 [debug] [MainThread]: Flushing usage events
+[0m10:58:46.209192 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m11:00:03.972549 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026203760440>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026201079D10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000262045AFD90>]}
+
+
+============================== 11:00:03.979151 | d02179f7-1268-46b6-9dac-2f2ab4ac02a3 ==============================
+[0m11:00:03.979151 [info ] [MainThread]: Running with dbt=1.10.11
+[0m11:00:03.980002 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'target_path': 'None', 'cache_selected_only': 'False', 'warn_error': 'None', 'empty': 'None', 'debug': 'False', 'static_parser': 'True', 'log_cache_events': 'False', 'profiles_dir': 'C:\\Users\\gbrietzig\\OneDrive - MARTINELLI ADVOGADOS\\Área de Trabalho\\ambiente\\dbt\\meu_projeto', 'log_format': 'default', 'quiet': 'False', 'use_colors': 'True', 'partial_parse': 'True', 'version_check': 'True', 'log_path': 'C:\\Users\\gbrietzig\\OneDrive - MARTINELLI ADVOGADOS\\Área de Trabalho\\ambiente\\dbt\\meu_projeto\\logs', 'introspect': 'True', 'invocation_command': 'dbt debug', 'fail_fast': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'send_anonymous_usage_stats': 'True', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'write_json': 'True'}
+[0m11:00:04.016104 [info ] [MainThread]: dbt version: 1.10.11
+[0m11:00:04.016828 [info ] [MainThread]: python version: 3.13.2
+[0m11:00:04.017241 [info ] [MainThread]: python path: C:\Users\gbrietzig\OneDrive - MARTINELLI ADVOGADOS\Área de Trabalho\ambiente\venv_ambiente\Scripts\python.exe
+[0m11:00:04.017702 [info ] [MainThread]: os info: Windows-11-10.0.22631-SP0
+[0m11:00:05.470969 [info ] [MainThread]: Using profiles dir at C:\Users\gbrietzig\OneDrive - MARTINELLI ADVOGADOS\Área de Trabalho\ambiente\dbt\meu_projeto
+[0m11:00:05.472498 [info ] [MainThread]: Using profiles.yml file at C:\Users\gbrietzig\OneDrive - MARTINELLI ADVOGADOS\Área de Trabalho\ambiente\dbt\meu_projeto\profiles.yml
+[0m11:00:05.473077 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\gbrietzig\OneDrive - MARTINELLI ADVOGADOS\Área de Trabalho\ambiente\dbt\meu_projeto\dbt_project.yml
+[0m11:00:05.479265 [info ] [MainThread]: adapter type: snowflake
+[0m11:00:05.479901 [info ] [MainThread]: adapter version: 1.10.2
+[0m11:00:05.576916 [info ] [MainThread]: Configuration:
+[0m11:00:05.578564 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m11:00:05.579691 [info ] [MainThread]:   dbt_project.yml file [[32mOK found and valid[0m]
+[0m11:00:05.580540 [info ] [MainThread]: Required dependencies:
+[0m11:00:05.581030 [debug] [MainThread]: Executing "git --help"
+[0m11:00:05.686627 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m11:00:05.687372 [debug] [MainThread]: STDERR: "b''"
+[0m11:00:05.687851 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m11:00:05.688530 [info ] [MainThread]: Connection:
+[0m11:00:05.689108 [info ] [MainThread]:   account: ROVQFNO-HYA59989
+[0m11:00:05.689641 [info ] [MainThread]:   user: GUSTAVO.BRIETZIG
+[0m11:00:05.690173 [info ] [MainThread]:   database: ITAX
+[0m11:00:05.690680 [info ] [MainThread]:   warehouse: COMPUTE_WH
+[0m11:00:05.691149 [info ] [MainThread]:   role: ACCOUNTADMIN
+[0m11:00:05.691576 [info ] [MainThread]:   schema: OURO
+[0m11:00:05.691990 [info ] [MainThread]:   authenticator: None
+[0m11:00:05.692433 [info ] [MainThread]:   oauth_client_id: None
+[0m11:00:05.692907 [info ] [MainThread]:   query_tag: None
+[0m11:00:05.693347 [info ] [MainThread]:   client_session_keep_alive: False
+[0m11:00:05.693832 [info ] [MainThread]:   host: None
+[0m11:00:05.694431 [info ] [MainThread]:   port: None
+[0m11:00:05.694962 [info ] [MainThread]:   proxy_host: None
+[0m11:00:05.695825 [info ] [MainThread]:   proxy_port: None
+[0m11:00:05.696583 [info ] [MainThread]:   protocol: None
+[0m11:00:05.697391 [info ] [MainThread]:   connect_retries: 1
+[0m11:00:05.698031 [info ] [MainThread]:   connect_timeout: None
+[0m11:00:05.699038 [info ] [MainThread]:   retry_on_database_errors: False
+[0m11:00:05.701482 [info ] [MainThread]:   retry_all: False
+[0m11:00:05.703294 [info ] [MainThread]:   insecure_mode: False
+[0m11:00:05.704971 [info ] [MainThread]:   reuse_connections: True
+[0m11:00:05.706026 [info ] [MainThread]:   s3_stage_vpce_dns_name: None
+[0m11:00:05.708292 [info ] [MainThread]: Registered adapter: snowflake=1.10.2
+[0m11:00:06.683631 [debug] [MainThread]: Acquiring new snowflake connection 'debug'
+[0m11:00:13.068581 [debug] [MainThread]: Using snowflake connection "debug"
+[0m11:00:13.068948 [debug] [MainThread]: On debug: select 1 as id
+[0m11:00:13.069197 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m11:00:20.051582 [debug] [MainThread]: SQL status: SUCCESS 1 in 6.982 seconds
+[0m11:00:20.053577 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m11:00:20.054379 [info ] [MainThread]: [32mAll checks passed![0m
+[0m11:00:20.055985 [debug] [MainThread]: Command `dbt debug` succeeded at 11:00:20.055839 after 16.29 seconds
+[0m11:00:20.056388 [debug] [MainThread]: Connection 'debug' was left open.
+[0m11:00:20.056751 [debug] [MainThread]: On debug: Close
+[0m11:00:20.813083 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002621F38BA80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002621F07FE30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002621EA1F570>]}
+[0m11:00:20.813591 [debug] [MainThread]: Flushing usage events
+[0m11:00:21.810113 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m11:01:41.677180 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018DFD620440>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018DFAF29D10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018DFE46FD90>]}
+
+
+============================== 11:01:41.681717 | a74530a0-f462-4654-b1c6-392a060e1c85 ==============================
+[0m11:01:41.681717 [info ] [MainThread]: Running with dbt=1.10.11
+[0m11:01:41.682670 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'use_experimental_parser': 'False', 'cache_selected_only': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\gbrietzig\\OneDrive - MARTINELLI ADVOGADOS\\Área de Trabalho\\ambiente\\dbt\\meu_projeto', 'debug': 'False', 'static_parser': 'True', 'log_cache_events': 'False', 'empty': 'False', 'quiet': 'False', 'log_format': 'default', 'use_colors': 'True', 'partial_parse': 'True', 'version_check': 'True', 'log_path': 'C:\\Users\\gbrietzig\\OneDrive - MARTINELLI ADVOGADOS\\Área de Trabalho\\ambiente\\dbt\\meu_projeto\\logs', 'introspect': 'True', 'no_print': 'None', 'fail_fast': 'False', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'invocation_command': 'dbt run', 'send_anonymous_usage_stats': 'True', 'indirect_selection': 'eager', 'target_path': 'None', 'write_json': 'True'}
+[0m11:01:43.311983 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'a74530a0-f462-4654-b1c6-392a060e1c85', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018DFD7D0FC0>]}
+[0m11:01:43.360771 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'a74530a0-f462-4654-b1c6-392a060e1c85', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018D9895DAE0>]}
+[0m11:01:43.364504 [info ] [MainThread]: Registered adapter: snowflake=1.10.2
+[0m11:01:44.268077 [debug] [MainThread]: checksum: 5335e1629744fab92fa7809c625edbb36f0d7063a879d6215c971798f27e66f9, vars: {}, profile: , target: , version: 1.10.11
+[0m11:01:44.269791 [info ] [MainThread]: Unable to do partial parsing because saved manifest not found. Starting full parse.
+[0m11:01:44.270763 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': 'a74530a0-f462-4654-b1c6-392a060e1c85', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018D989A0750>]}
+[0m11:01:45.881729 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'a74530a0-f462-4654-b1c6-392a060e1c85', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018D98DD8C80>]}
+[0m11:01:45.941573 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\gbrietzig\OneDrive - MARTINELLI ADVOGADOS\Área de Trabalho\ambiente\dbt\meu_projeto\target\manifest.json
+[0m11:01:45.949644 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\gbrietzig\OneDrive - MARTINELLI ADVOGADOS\Área de Trabalho\ambiente\dbt\meu_projeto\target\semantic_manifest.json
+[0m11:01:46.034975 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'a74530a0-f462-4654-b1c6-392a060e1c85', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018D99135390>]}
+[0m11:01:46.035469 [info ] [MainThread]: Found 4 models, 10 data tests, 479 macros
+[0m11:01:46.035962 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'a74530a0-f462-4654-b1c6-392a060e1c85', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018D991F3E10>]}
+[0m11:01:46.037830 [info ] [MainThread]: 
+[0m11:01:46.038458 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m11:01:46.038943 [info ] [MainThread]: 
+[0m11:01:46.039484 [debug] [MainThread]: Acquiring new snowflake connection 'master'
+[0m11:01:46.044208 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_ITAX'
+[0m11:01:46.222833 [debug] [ThreadPool]: Using snowflake connection "list_ITAX"
+[0m11:01:46.223224 [debug] [ThreadPool]: On list_ITAX: show terse schemas in database ITAX
+    limit 10000
+/* {"app": "dbt", "dbt_version": "1.10.11", "profile_name": "meu_projeto", "target_name": "dev", "connection_name": "list_ITAX"} */
+[0m11:01:46.223484 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m11:01:50.389272 [debug] [ThreadPool]: SQL status: SUCCESS 5 in 4.166 seconds
+[0m11:01:50.394835 [debug] [ThreadPool]: Using snowflake connection "list_ITAX"
+[0m11:01:50.395162 [debug] [ThreadPool]: On list_ITAX: show terse schemas in database ITAX
+    limit 10000
+/* {"app": "dbt", "dbt_version": "1.10.11", "profile_name": "meu_projeto", "target_name": "dev", "connection_name": "list_ITAX"} */
+[0m11:01:50.577609 [debug] [ThreadPool]: SQL status: SUCCESS 5 in 0.182 seconds
+[0m11:01:50.580636 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_ITAX, now create_ITAX_OURO_OURO)
+[0m11:01:50.582886 [debug] [ThreadPool]: Creating schema "database: "ITAX"
+schema: "OURO_OURO"
+"
+[0m11:01:50.590551 [debug] [ThreadPool]: Using snowflake connection "create_ITAX_OURO_OURO"
+[0m11:01:50.591096 [debug] [ThreadPool]: On create_ITAX_OURO_OURO: create schema if not exists ITAX.OURO_OURO
+/* {"app": "dbt", "dbt_version": "1.10.11", "profile_name": "meu_projeto", "target_name": "dev", "connection_name": "create_ITAX_OURO_OURO"} */
+[0m11:01:50.841543 [debug] [ThreadPool]: SQL status: SUCCESS 1 in 0.250 seconds
+[0m11:01:50.843983 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_ITAX_OURO'
+[0m11:01:50.864681 [debug] [ThreadPool]: Using snowflake connection "list_ITAX_OURO"
+[0m11:01:50.865372 [debug] [ThreadPool]: On list_ITAX_OURO: show objects in ITAX.OURO
+    limit 10000
+    
+
+/* {"app": "dbt", "dbt_version": "1.10.11", "profile_name": "meu_projeto", "target_name": "dev", "connection_name": "list_ITAX_OURO"} */;
+[0m11:01:50.866892 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m11:01:53.859095 [debug] [ThreadPool]: SQL status: SUCCESS 0 in 2.992 seconds
+[0m11:01:53.861334 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_ITAX_OURO, now list_ITAX_OURO_OURO)
+[0m11:01:53.863831 [debug] [ThreadPool]: Using snowflake connection "list_ITAX_OURO_OURO"
+[0m11:01:53.864451 [debug] [ThreadPool]: On list_ITAX_OURO_OURO: show objects in ITAX.OURO_OURO
+    limit 10000
+    
+
+/* {"app": "dbt", "dbt_version": "1.10.11", "profile_name": "meu_projeto", "target_name": "dev", "connection_name": "list_ITAX_OURO_OURO"} */;
+[0m11:01:54.146821 [debug] [ThreadPool]: SQL status: SUCCESS 0 in 0.282 seconds
+[0m11:01:54.149093 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'a74530a0-f462-4654-b1c6-392a060e1c85', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018D9964EC90>]}
+[0m11:01:54.183284 [debug] [Thread-1 (]: Began running node model.meu_projeto.fato_vendas
+[0m11:01:54.184029 [info ] [Thread-1 (]: 1 of 4 START sql incremental model OURO_OURO.fato_vendas ....................... [RUN]
+[0m11:01:54.185102 [debug] [Thread-1 (]: Acquiring new snowflake connection 'model.meu_projeto.fato_vendas'
+[0m11:01:54.185616 [debug] [Thread-1 (]: Began compiling node model.meu_projeto.fato_vendas
+[0m11:01:54.198448 [debug] [Thread-1 (]: Writing injected SQL for node "model.meu_projeto.fato_vendas"
+[0m11:01:54.202402 [debug] [Thread-1 (]: Began executing node model.meu_projeto.fato_vendas
+[0m11:01:54.262398 [debug] [Thread-1 (]: Writing runtime sql for node "model.meu_projeto.fato_vendas"
+[0m11:01:54.265942 [debug] [Thread-1 (]: Using snowflake connection "model.meu_projeto.fato_vendas"
+[0m11:01:54.266497 [debug] [Thread-1 (]: On model.meu_projeto.fato_vendas: create or replace transient table ITAX.OURO_OURO.fato_vendas
+    
+    
+    
+    as (
+
+SELECT
+    CONTRIB_0000.INFO_ROW:REG::string as REG,
+    CONTRIB_0000.INFO_ROW:CNPJ::string as CNPJ,
+    CONTRIB_C010.INFO_ROW:REG::string as REG,
+    CONTRIB_C010.INFO_ROW:CNPJ::string as CNPJ
+FROM
+    CONTRIB_C010
+LEFT JOIN
+    CONTRIB_C001 ON
+        CONTRIB_C001.FILE_ID = CONTRIB_C010.FILE_ID AND
+        CONTRIB_C001.ROW_NUMBER = CONTRIB_C010.FATHER_ROW
+LEFT JOIN
+    CONTRIB_0000 ON
+        CONTRIB_0000.FILE_ID = CONTRIB_C001.FILE_ID AND
+        CONTRIB_0000.ROW_NUMBER = CONTRIB_C001.FATHER_ROW
+    )
+
+/* {"app": "dbt", "dbt_version": "1.10.11", "profile_name": "meu_projeto", "target_name": "dev", "node_id": "model.meu_projeto.fato_vendas"} */;
+[0m11:01:54.267448 [debug] [Thread-1 (]: Opening a new connection, currently in state init
+[0m11:01:57.321626 [debug] [Thread-1 (]: Snowflake adapter: Snowflake query id: 01bf1729-0002-ad53-0002-c77700099146
+[0m11:01:57.322956 [debug] [Thread-1 (]: Snowflake adapter: Snowflake error: 002003 (42S02): SQL compilation error:
+Object 'CONTRIB_C010' does not exist or not authorized.
+[0m11:01:57.348995 [debug] [Thread-1 (]: Database Error in model fato_vendas (models\marts\fato_vendas.sql)
+  002003 (42S02): SQL compilation error:
+  Object 'CONTRIB_C010' does not exist or not authorized.
+  compiled code at target\run\meu_projeto\models\marts\fato_vendas.sql
+[0m11:01:57.363547 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'a74530a0-f462-4654-b1c6-392a060e1c85', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018D9990AFC0>]}
+[0m11:01:57.365127 [error] [Thread-1 (]: 1 of 4 ERROR creating sql incremental model OURO_OURO.fato_vendas .............. [[31mERROR[0m in 3.16s]
+[0m11:01:57.366953 [debug] [Thread-1 (]: Finished running node model.meu_projeto.fato_vendas
+[0m11:01:57.367833 [debug] [Thread-1 (]: Began running node model.meu_projeto.my_first_dbt_model
+[0m11:01:57.368426 [info ] [Thread-1 (]: 2 of 4 START sql table model OURO.my_first_dbt_model ........................... [RUN]
+[0m11:01:57.369522 [debug] [Thread-4 (]: Marking all children of 'model.meu_projeto.fato_vendas' to be skipped because of status 'error'.  Reason: Database Error in model fato_vendas (models\marts\fato_vendas.sql)
+  002003 (42S02): SQL compilation error:
+  Object 'CONTRIB_C010' does not exist or not authorized.
+  compiled code at target\run\meu_projeto\models\marts\fato_vendas.sql.
+[0m11:01:57.370544 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.meu_projeto.fato_vendas, now model.meu_projeto.my_first_dbt_model)
+[0m11:01:57.373163 [debug] [Thread-1 (]: Began compiling node model.meu_projeto.my_first_dbt_model
+[0m11:01:57.379729 [debug] [Thread-1 (]: Writing injected SQL for node "model.meu_projeto.my_first_dbt_model"
+[0m11:01:57.382331 [debug] [Thread-1 (]: Began executing node model.meu_projeto.my_first_dbt_model
+[0m11:01:57.398133 [debug] [Thread-1 (]: Writing runtime sql for node "model.meu_projeto.my_first_dbt_model"
+[0m11:01:57.404374 [debug] [Thread-1 (]: Using snowflake connection "model.meu_projeto.my_first_dbt_model"
+[0m11:01:57.406727 [debug] [Thread-1 (]: On model.meu_projeto.my_first_dbt_model: create or replace transient table ITAX.OURO.my_first_dbt_model
+    
+    
+    
+    as (/*
+    Welcome to your first dbt model!
+    Did you know that you can also configure models directly within SQL files?
+    This will override configurations stated in dbt_project.yml
+
+    Try changing "table" to "view" below
+*/
+
+
+
+with source_data as (
+
+    select 1 as id
+    union all
+    select null as id
+
+)
+
+select *
+from source_data
+
+/*
+    Uncomment the line below to remove records with null `id` values
+*/
+
+-- where id is not null
+    )
+
+/* {"app": "dbt", "dbt_version": "1.10.11", "profile_name": "meu_projeto", "target_name": "dev", "node_id": "model.meu_projeto.my_first_dbt_model"} */;
+[0m11:01:59.423389 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 2.016 seconds
+[0m11:01:59.450435 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'a74530a0-f462-4654-b1c6-392a060e1c85', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018D9A0C39D0>]}
+[0m11:01:59.451078 [info ] [Thread-1 (]: 2 of 4 OK created sql table model OURO.my_first_dbt_model ...................... [[32mSUCCESS 1[0m in 2.08s]
+[0m11:01:59.451914 [debug] [Thread-1 (]: Finished running node model.meu_projeto.my_first_dbt_model
+[0m11:01:59.452291 [debug] [Thread-1 (]: Began running node model.meu_projeto.stg_vendas_clientes
+[0m11:01:59.452707 [info ] [Thread-1 (]: 3 of 4 START sql view model OURO_OURO.stg_vendas_clientes ...................... [RUN]
+[0m11:01:59.453563 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.meu_projeto.my_first_dbt_model, now model.meu_projeto.stg_vendas_clientes)
+[0m11:01:59.454157 [debug] [Thread-1 (]: Began compiling node model.meu_projeto.stg_vendas_clientes
+[0m11:01:59.464538 [debug] [Thread-1 (]: Writing injected SQL for node "model.meu_projeto.stg_vendas_clientes"
+[0m11:01:59.467484 [debug] [Thread-1 (]: Began executing node model.meu_projeto.stg_vendas_clientes
+[0m11:01:59.490689 [debug] [Thread-1 (]: Writing runtime sql for node "model.meu_projeto.stg_vendas_clientes"
+[0m11:01:59.492501 [debug] [Thread-1 (]: Using snowflake connection "model.meu_projeto.stg_vendas_clientes"
+[0m11:01:59.492895 [debug] [Thread-1 (]: On model.meu_projeto.stg_vendas_clientes: create or replace   view ITAX.OURO_OURO.stg_vendas_clientes
+  
+  
+  
+  
+  as (
+    
+
+SELECT
+    CONTRIB_0000.INFO_ROW:REG::string as REG,
+    CONTRIB_0000.INFO_ROW:CNPJ::string as CNPJ,
+    CONTRIB_C010.INFO_ROW:REG::string as REG,
+    CONTRIB_C010.INFO_ROW:CNPJ::string as CNPJ
+FROM
+    CONTRIB_C010
+LEFT JOIN
+    CONTRIB_C001 ON
+        CONTRIB_C001.FILE_ID = CONTRIB_C010.FILE_ID AND
+        CONTRIB_C001.ROW_NUMBER = CONTRIB_C010.FATHER_ROW
+LEFT JOIN
+    CONTRIB_0000 ON
+        CONTRIB_0000.FILE_ID = CONTRIB_C001.FILE_ID AND
+        CONTRIB_0000.ROW_NUMBER = CONTRIB_C001.FATHER_ROW
+  )
+/* {"app": "dbt", "dbt_version": "1.10.11", "profile_name": "meu_projeto", "target_name": "dev", "node_id": "model.meu_projeto.stg_vendas_clientes"} */;
+[0m11:01:59.693439 [debug] [Thread-1 (]: Snowflake adapter: Snowflake query id: 01bf1729-0002-ad1d-0002-c7770009313a
+[0m11:01:59.693992 [debug] [Thread-1 (]: Snowflake adapter: Snowflake error: 002003 (42S02): SQL compilation error:
+Object 'ITAX.OURO_OURO.CONTRIB_C010' does not exist or not authorized.
+[0m11:01:59.701123 [debug] [Thread-1 (]: Database Error in model stg_vendas_clientes (models\marts\stg_vendas_clientes.sql)
+  002003 (42S02): SQL compilation error:
+  Object 'ITAX.OURO_OURO.CONTRIB_C010' does not exist or not authorized.
+  compiled code at target\run\meu_projeto\models\marts\stg_vendas_clientes.sql
+[0m11:01:59.701569 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'a74530a0-f462-4654-b1c6-392a060e1c85', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018D99FDB2D0>]}
+[0m11:01:59.702083 [error] [Thread-1 (]: 3 of 4 ERROR creating sql view model OURO_OURO.stg_vendas_clientes ............. [[31mERROR[0m in 0.25s]
+[0m11:01:59.702989 [debug] [Thread-1 (]: Finished running node model.meu_projeto.stg_vendas_clientes
+[0m11:01:59.703328 [debug] [Thread-1 (]: Began running node model.meu_projeto.my_second_dbt_model
+[0m11:01:59.704329 [debug] [Thread-4 (]: Marking all children of 'model.meu_projeto.stg_vendas_clientes' to be skipped because of status 'error'.  Reason: Database Error in model stg_vendas_clientes (models\marts\stg_vendas_clientes.sql)
+  002003 (42S02): SQL compilation error:
+  Object 'ITAX.OURO_OURO.CONTRIB_C010' does not exist or not authorized.
+  compiled code at target\run\meu_projeto\models\marts\stg_vendas_clientes.sql.
+[0m11:01:59.703702 [info ] [Thread-1 (]: 4 of 4 START sql view model OURO.my_second_dbt_model ........................... [RUN]
+[0m11:01:59.705070 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.meu_projeto.stg_vendas_clientes, now model.meu_projeto.my_second_dbt_model)
+[0m11:01:59.705368 [debug] [Thread-1 (]: Began compiling node model.meu_projeto.my_second_dbt_model
+[0m11:01:59.707229 [debug] [Thread-1 (]: Writing injected SQL for node "model.meu_projeto.my_second_dbt_model"
+[0m11:01:59.708590 [debug] [Thread-1 (]: Began executing node model.meu_projeto.my_second_dbt_model
+[0m11:01:59.711955 [debug] [Thread-1 (]: Writing runtime sql for node "model.meu_projeto.my_second_dbt_model"
+[0m11:01:59.714770 [debug] [Thread-1 (]: Using snowflake connection "model.meu_projeto.my_second_dbt_model"
+[0m11:01:59.715645 [debug] [Thread-1 (]: On model.meu_projeto.my_second_dbt_model: create or replace   view ITAX.OURO.my_second_dbt_model
+  
+  
+  
+  
+  as (
+    -- Use the `ref` function to select from other models
+
+select *
+from ITAX.OURO.my_first_dbt_model
+where id = 1
+  )
+/* {"app": "dbt", "dbt_version": "1.10.11", "profile_name": "meu_projeto", "target_name": "dev", "node_id": "model.meu_projeto.my_second_dbt_model"} */;
+[0m11:02:00.348182 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.632 seconds
+[0m11:02:00.351650 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'a74530a0-f462-4654-b1c6-392a060e1c85', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018D990EAA50>]}
+[0m11:02:00.352514 [info ] [Thread-1 (]: 4 of 4 OK created sql view model OURO.my_second_dbt_model ...................... [[32mSUCCESS 1[0m in 0.65s]
+[0m11:02:00.353679 [debug] [Thread-1 (]: Finished running node model.meu_projeto.my_second_dbt_model
+[0m11:02:00.356208 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m11:02:00.356836 [debug] [MainThread]: Connection 'create_ITAX_OURO_OURO' was left open.
+[0m11:02:00.357241 [debug] [MainThread]: On create_ITAX_OURO_OURO: Close
+[0m11:02:00.661601 [debug] [MainThread]: Connection 'list_ITAX_OURO_OURO' was left open.
+[0m11:02:00.662815 [debug] [MainThread]: On list_ITAX_OURO_OURO: Close
+[0m11:02:00.948208 [debug] [MainThread]: Connection 'model.meu_projeto.my_second_dbt_model' was left open.
+[0m11:02:00.948966 [debug] [MainThread]: On model.meu_projeto.my_second_dbt_model: Close
+[0m11:02:01.249730 [info ] [MainThread]: 
+[0m11:02:01.250832 [info ] [MainThread]: Finished running 1 incremental model, 1 table model, 2 view models in 0 hours 0 minutes and 15.21 seconds (15.21s).
+[0m11:02:01.253591 [debug] [MainThread]: Command end result
+[0m11:02:01.292980 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\gbrietzig\OneDrive - MARTINELLI ADVOGADOS\Área de Trabalho\ambiente\dbt\meu_projeto\target\manifest.json
+[0m11:02:01.298982 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\gbrietzig\OneDrive - MARTINELLI ADVOGADOS\Área de Trabalho\ambiente\dbt\meu_projeto\target\semantic_manifest.json
+[0m11:02:01.310054 [debug] [MainThread]: Wrote artifact RunExecutionResult to C:\Users\gbrietzig\OneDrive - MARTINELLI ADVOGADOS\Área de Trabalho\ambiente\dbt\meu_projeto\target\run_results.json
+[0m11:02:01.310428 [info ] [MainThread]: 
+[0m11:02:01.311341 [info ] [MainThread]: [31mCompleted with 2 errors, 0 partial successes, and 0 warnings:[0m
+[0m11:02:01.312073 [info ] [MainThread]: 
+[0m11:02:01.312623 [error] [MainThread]: [31mFailure in model fato_vendas (models\marts\fato_vendas.sql)[0m
+[0m11:02:01.313154 [error] [MainThread]:   Database Error in model fato_vendas (models\marts\fato_vendas.sql)
+  002003 (42S02): SQL compilation error:
+  Object 'CONTRIB_C010' does not exist or not authorized.
+  compiled code at target\run\meu_projeto\models\marts\fato_vendas.sql
+[0m11:02:01.313808 [info ] [MainThread]: 
+[0m11:02:01.314461 [info ] [MainThread]:   compiled code at target\compiled\meu_projeto\models\marts\fato_vendas.sql
+[0m11:02:01.314980 [info ] [MainThread]: 
+[0m11:02:01.315725 [error] [MainThread]: [31mFailure in model stg_vendas_clientes (models\marts\stg_vendas_clientes.sql)[0m
+[0m11:02:01.318214 [error] [MainThread]:   Database Error in model stg_vendas_clientes (models\marts\stg_vendas_clientes.sql)
+  002003 (42S02): SQL compilation error:
+  Object 'ITAX.OURO_OURO.CONTRIB_C010' does not exist or not authorized.
+  compiled code at target\run\meu_projeto\models\marts\stg_vendas_clientes.sql
+[0m11:02:01.319746 [info ] [MainThread]: 
+[0m11:02:01.320381 [info ] [MainThread]:   compiled code at target\compiled\meu_projeto\models\marts\stg_vendas_clientes.sql
+[0m11:02:01.320918 [info ] [MainThread]: 
+[0m11:02:01.321481 [info ] [MainThread]: Done. PASS=2 WARN=0 ERROR=2 SKIP=0 NO-OP=0 TOTAL=4
+[0m11:02:01.323383 [debug] [MainThread]: Command `dbt run` failed at 11:02:01.323204 after 19.89 seconds
+[0m11:02:01.324300 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018DFD69E150>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018D99F7B230>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018D998B9610>]}
+[0m11:02:01.324887 [debug] [MainThread]: Flushing usage events
+[0m11:02:02.305049 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m11:06:08.545974 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C6A1D60440>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C69F659D10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C6A2BAFD90>]}
+
+
+============================== 11:06:08.552307 | 4adfe117-e6fc-42d1-a82e-6d0b59ac1fae ==============================
+[0m11:06:08.552307 [info ] [MainThread]: Running with dbt=1.10.11
+[0m11:06:08.553177 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'write_json': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\gbrietzig\\OneDrive - MARTINELLI ADVOGADOS\\Área de Trabalho\\ambiente\\dbt\\meu_projeto', 'debug': 'False', 'static_parser': 'True', 'log_cache_events': 'False', 'empty': 'False', 'log_format': 'default', 'quiet': 'False', 'use_colors': 'True', 'partial_parse': 'True', 'version_check': 'True', 'log_path': 'C:\\Users\\gbrietzig\\OneDrive - MARTINELLI ADVOGADOS\\Área de Trabalho\\ambiente\\dbt\\meu_projeto\\logs', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'fail_fast': 'False', 'no_print': 'None', 'invocation_command': 'dbt run', 'send_anonymous_usage_stats': 'True', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'target_path': 'None'}
+[0m11:06:09.863398 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '4adfe117-e6fc-42d1-a82e-6d0b59ac1fae', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C6A1F10FC0>]}
+[0m11:06:09.920714 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '4adfe117-e6fc-42d1-a82e-6d0b59ac1fae', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C6BCF4DAE0>]}
+[0m11:06:09.923042 [info ] [MainThread]: Registered adapter: snowflake=1.10.2
+[0m11:06:10.869032 [debug] [MainThread]: checksum: 5335e1629744fab92fa7809c625edbb36f0d7063a879d6215c971798f27e66f9, vars: {}, profile: , target: , version: 1.10.11
+[0m11:06:11.093967 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+[0m11:06:11.094583 [debug] [MainThread]: Partial parsing: updated file: meu_projeto://models\marts\stg_vendas_clientes.sql
+[0m11:06:11.437073 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '4adfe117-e6fc-42d1-a82e-6d0b59ac1fae', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C6BD680D50>]}
+[0m11:06:11.492315 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\gbrietzig\OneDrive - MARTINELLI ADVOGADOS\Área de Trabalho\ambiente\dbt\meu_projeto\target\manifest.json
+[0m11:06:11.495598 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\gbrietzig\OneDrive - MARTINELLI ADVOGADOS\Área de Trabalho\ambiente\dbt\meu_projeto\target\semantic_manifest.json
+[0m11:06:11.529454 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '4adfe117-e6fc-42d1-a82e-6d0b59ac1fae', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C6BD3C3D40>]}
+[0m11:06:11.529924 [info ] [MainThread]: Found 4 models, 10 data tests, 479 macros
+[0m11:06:11.530545 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '4adfe117-e6fc-42d1-a82e-6d0b59ac1fae', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C6BD808750>]}
+[0m11:06:11.532183 [info ] [MainThread]: 
+[0m11:06:11.532764 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m11:06:11.533231 [info ] [MainThread]: 
+[0m11:06:11.533849 [debug] [MainThread]: Acquiring new snowflake connection 'master'
+[0m11:06:11.537489 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_ITAX'
+[0m11:06:11.773083 [debug] [ThreadPool]: Using snowflake connection "list_ITAX"
+[0m11:06:11.773470 [debug] [ThreadPool]: On list_ITAX: show terse schemas in database ITAX
+    limit 10000
+/* {"app": "dbt", "dbt_version": "1.10.11", "profile_name": "meu_projeto", "target_name": "dev", "connection_name": "list_ITAX"} */
+[0m11:06:11.773746 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m11:06:15.340915 [debug] [ThreadPool]: SQL status: SUCCESS 6 in 3.567 seconds
+[0m11:06:15.344616 [debug] [ThreadPool]: Using snowflake connection "list_ITAX"
+[0m11:06:15.344963 [debug] [ThreadPool]: On list_ITAX: show terse schemas in database ITAX
+    limit 10000
+/* {"app": "dbt", "dbt_version": "1.10.11", "profile_name": "meu_projeto", "target_name": "dev", "connection_name": "list_ITAX"} */
+[0m11:06:15.533943 [debug] [ThreadPool]: SQL status: SUCCESS 6 in 0.189 seconds
+[0m11:06:15.538793 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_ITAX_OURO_OURO'
+[0m11:06:15.558808 [debug] [ThreadPool]: Using snowflake connection "list_ITAX_OURO_OURO"
+[0m11:06:15.559477 [debug] [ThreadPool]: On list_ITAX_OURO_OURO: show objects in ITAX.OURO_OURO
+    limit 10000
+    
+
+/* {"app": "dbt", "dbt_version": "1.10.11", "profile_name": "meu_projeto", "target_name": "dev", "connection_name": "list_ITAX_OURO_OURO"} */;
+[0m11:06:15.560036 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m11:06:18.715764 [debug] [ThreadPool]: SQL status: SUCCESS 0 in 3.156 seconds
+[0m11:06:18.717543 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_ITAX_OURO_OURO, now list_ITAX_OURO)
+[0m11:06:18.719850 [debug] [ThreadPool]: Using snowflake connection "list_ITAX_OURO"
+[0m11:06:18.720152 [debug] [ThreadPool]: On list_ITAX_OURO: show objects in ITAX.OURO
+    limit 10000
+    
+
+/* {"app": "dbt", "dbt_version": "1.10.11", "profile_name": "meu_projeto", "target_name": "dev", "connection_name": "list_ITAX_OURO"} */;
+[0m11:06:18.908291 [debug] [ThreadPool]: SQL status: SUCCESS 2 in 0.188 seconds
+[0m11:06:18.910983 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '4adfe117-e6fc-42d1-a82e-6d0b59ac1fae', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C6BD4E8050>]}
+[0m11:06:18.915352 [debug] [Thread-1 (]: Began running node model.meu_projeto.fato_vendas
+[0m11:06:18.915848 [info ] [Thread-1 (]: 1 of 4 START sql incremental model OURO_OURO.fato_vendas ....................... [RUN]
+[0m11:06:18.916450 [debug] [Thread-1 (]: Acquiring new snowflake connection 'model.meu_projeto.fato_vendas'
+[0m11:06:18.916763 [debug] [Thread-1 (]: Began compiling node model.meu_projeto.fato_vendas
+[0m11:06:18.922834 [debug] [Thread-1 (]: Writing injected SQL for node "model.meu_projeto.fato_vendas"
+[0m11:06:18.924659 [debug] [Thread-1 (]: Began executing node model.meu_projeto.fato_vendas
+[0m11:06:19.002262 [debug] [Thread-1 (]: Writing runtime sql for node "model.meu_projeto.fato_vendas"
+[0m11:06:19.004316 [debug] [Thread-1 (]: Using snowflake connection "model.meu_projeto.fato_vendas"
+[0m11:06:19.004693 [debug] [Thread-1 (]: On model.meu_projeto.fato_vendas: create or replace transient table ITAX.OURO_OURO.fato_vendas
+    
+    
+    
+    as (
+
+SELECT
+    CONTRIB_0000.INFO_ROW:REG::string as REG,
+    CONTRIB_0000.INFO_ROW:CNPJ::string as CNPJ,
+    CONTRIB_C010.INFO_ROW:REG::string as REG,
+    CONTRIB_C010.INFO_ROW:CNPJ::string as CNPJ
+FROM
+    CONTRIB_C010
+LEFT JOIN
+    CONTRIB_C001 ON
+        CONTRIB_C001.FILE_ID = CONTRIB_C010.FILE_ID AND
+        CONTRIB_C001.ROW_NUMBER = CONTRIB_C010.FATHER_ROW
+LEFT JOIN
+    CONTRIB_0000 ON
+        CONTRIB_0000.FILE_ID = CONTRIB_C001.FILE_ID AND
+        CONTRIB_0000.ROW_NUMBER = CONTRIB_C001.FATHER_ROW
+    )
+
+/* {"app": "dbt", "dbt_version": "1.10.11", "profile_name": "meu_projeto", "target_name": "dev", "node_id": "model.meu_projeto.fato_vendas"} */;
+[0m11:06:19.005015 [debug] [Thread-1 (]: Opening a new connection, currently in state init
+[0m11:06:22.086753 [debug] [Thread-1 (]: Snowflake adapter: Snowflake query id: 01bf172e-0002-adb5-0002-c77700098132
+[0m11:06:22.087823 [debug] [Thread-1 (]: Snowflake adapter: Snowflake error: 002003 (42S02): SQL compilation error:
+Object 'CONTRIB_C010' does not exist or not authorized.
+[0m11:06:22.099250 [debug] [Thread-1 (]: Database Error in model fato_vendas (models\marts\fato_vendas.sql)
+  002003 (42S02): SQL compilation error:
+  Object 'CONTRIB_C010' does not exist or not authorized.
+  compiled code at target\run\meu_projeto\models\marts\fato_vendas.sql
+[0m11:06:22.101533 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '4adfe117-e6fc-42d1-a82e-6d0b59ac1fae', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C6BDE32810>]}
+[0m11:06:22.102084 [error] [Thread-1 (]: 1 of 4 ERROR creating sql incremental model OURO_OURO.fato_vendas .............. [[31mERROR[0m in 3.18s]
+[0m11:06:22.103083 [debug] [Thread-1 (]: Finished running node model.meu_projeto.fato_vendas
+[0m11:06:22.103401 [debug] [Thread-1 (]: Began running node model.meu_projeto.my_first_dbt_model
+[0m11:06:22.104414 [debug] [Thread-4 (]: Marking all children of 'model.meu_projeto.fato_vendas' to be skipped because of status 'error'.  Reason: Database Error in model fato_vendas (models\marts\fato_vendas.sql)
+  002003 (42S02): SQL compilation error:
+  Object 'CONTRIB_C010' does not exist or not authorized.
+  compiled code at target\run\meu_projeto\models\marts\fato_vendas.sql.
+[0m11:06:22.103758 [info ] [Thread-1 (]: 2 of 4 START sql table model OURO.my_first_dbt_model ........................... [RUN]
+[0m11:06:22.105973 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.meu_projeto.fato_vendas, now model.meu_projeto.my_first_dbt_model)
+[0m11:06:22.106553 [debug] [Thread-1 (]: Began compiling node model.meu_projeto.my_first_dbt_model
+[0m11:06:22.109226 [debug] [Thread-1 (]: Writing injected SQL for node "model.meu_projeto.my_first_dbt_model"
+[0m11:06:22.110351 [debug] [Thread-1 (]: Began executing node model.meu_projeto.my_first_dbt_model
+[0m11:06:22.117560 [debug] [Thread-1 (]: Writing runtime sql for node "model.meu_projeto.my_first_dbt_model"
+[0m11:06:22.119058 [debug] [Thread-1 (]: Using snowflake connection "model.meu_projeto.my_first_dbt_model"
+[0m11:06:22.119469 [debug] [Thread-1 (]: On model.meu_projeto.my_first_dbt_model: create or replace transient table ITAX.OURO.my_first_dbt_model
+    
+    
+    
+    as (/*
+    Welcome to your first dbt model!
+    Did you know that you can also configure models directly within SQL files?
+    This will override configurations stated in dbt_project.yml
+
+    Try changing "table" to "view" below
+*/
+
+
+
+with source_data as (
+
+    select 1 as id
+    union all
+    select null as id
+
+)
+
+select *
+from source_data
+
+/*
+    Uncomment the line below to remove records with null `id` values
+*/
+
+-- where id is not null
+    )
+
+/* {"app": "dbt", "dbt_version": "1.10.11", "profile_name": "meu_projeto", "target_name": "dev", "node_id": "model.meu_projeto.my_first_dbt_model"} */;
+[0m11:06:23.775115 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 1.655 seconds
+[0m11:06:23.805844 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '4adfe117-e6fc-42d1-a82e-6d0b59ac1fae', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C6BDE90AA0>]}
+[0m11:06:23.806703 [info ] [Thread-1 (]: 2 of 4 OK created sql table model OURO.my_first_dbt_model ...................... [[32mSUCCESS 1[0m in 1.70s]
+[0m11:06:23.807691 [debug] [Thread-1 (]: Finished running node model.meu_projeto.my_first_dbt_model
+[0m11:06:23.808049 [debug] [Thread-1 (]: Began running node model.meu_projeto.stg_vendas_clientes
+[0m11:06:23.808400 [info ] [Thread-1 (]: 3 of 4 START sql view model OURO_OURO.stg_vendas_clientes ...................... [RUN]
+[0m11:06:23.809038 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.meu_projeto.my_first_dbt_model, now model.meu_projeto.stg_vendas_clientes)
+[0m11:06:23.809369 [debug] [Thread-1 (]: Began compiling node model.meu_projeto.stg_vendas_clientes
+[0m11:06:23.811574 [debug] [Thread-1 (]: Writing injected SQL for node "model.meu_projeto.stg_vendas_clientes"
+[0m11:06:23.813094 [debug] [Thread-1 (]: Began executing node model.meu_projeto.stg_vendas_clientes
+[0m11:06:23.841992 [debug] [Thread-1 (]: Writing runtime sql for node "model.meu_projeto.stg_vendas_clientes"
+[0m11:06:23.849203 [debug] [Thread-1 (]: Using snowflake connection "model.meu_projeto.stg_vendas_clientes"
+[0m11:06:23.850860 [debug] [Thread-1 (]: On model.meu_projeto.stg_vendas_clientes: create or replace   view ITAX.OURO_OURO.stg_vendas_clientes
+  
+  
+  
+  
+  as (
+    
+
+SELECT
+    CONTRIB_0000.INFO_ROW:REG::string as REG,
+    CONTRIB_0000.INFO_ROW:CNPJ::string as CNPJ,
+    CONTRIB_C010.INFO_ROW:REG::string as REG,
+    CONTRIB_C010.INFO_ROW:CNPJ::string as CNPJ
+FROM
+    prata.CONTRIB_C010
+LEFT JOIN
+    prata.CONTRIB_C001 ON
+        CONTRIB_C001.FILE_ID = CONTRIB_C010.FILE_ID AND
+        CONTRIB_C001.ROW_NUMBER = CONTRIB_C010.FATHER_ROW
+LEFT JOIN
+    prata.CONTRIB_0000 ON
+        CONTRIB_0000.FILE_ID = CONTRIB_C001.FILE_ID AND
+        CONTRIB_0000.ROW_NUMBER = CONTRIB_C001.FATHER_ROW
+  )
+/* {"app": "dbt", "dbt_version": "1.10.11", "profile_name": "meu_projeto", "target_name": "dev", "node_id": "model.meu_projeto.stg_vendas_clientes"} */;
+[0m11:06:24.112127 [debug] [Thread-1 (]: Snowflake adapter: Snowflake query id: 01bf172e-0002-ad18-0002-c7770009d176
+[0m11:06:24.113160 [debug] [Thread-1 (]: Snowflake adapter: Snowflake error: 002003 (02000): SQL compilation error:
+Schema 'ITAX.PRATA' does not exist or not authorized.
+[0m11:06:24.125374 [debug] [Thread-1 (]: Database Error in model stg_vendas_clientes (models\marts\stg_vendas_clientes.sql)
+  002003 (02000): SQL compilation error:
+  Schema 'ITAX.PRATA' does not exist or not authorized.
+  compiled code at target\run\meu_projeto\models\marts\stg_vendas_clientes.sql
+[0m11:06:24.125992 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '4adfe117-e6fc-42d1-a82e-6d0b59ac1fae', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C6BE66C7D0>]}
+[0m11:06:24.126710 [error] [Thread-1 (]: 3 of 4 ERROR creating sql view model OURO_OURO.stg_vendas_clientes ............. [[31mERROR[0m in 0.32s]
+[0m11:06:24.127639 [debug] [Thread-1 (]: Finished running node model.meu_projeto.stg_vendas_clientes
+[0m11:06:24.128029 [debug] [Thread-1 (]: Began running node model.meu_projeto.my_second_dbt_model
+[0m11:06:24.128477 [info ] [Thread-1 (]: 4 of 4 START sql view model OURO.my_second_dbt_model ........................... [RUN]
+[0m11:06:24.129364 [debug] [Thread-4 (]: Marking all children of 'model.meu_projeto.stg_vendas_clientes' to be skipped because of status 'error'.  Reason: Database Error in model stg_vendas_clientes (models\marts\stg_vendas_clientes.sql)
+  002003 (02000): SQL compilation error:
+  Schema 'ITAX.PRATA' does not exist or not authorized.
+  compiled code at target\run\meu_projeto\models\marts\stg_vendas_clientes.sql.
+[0m11:06:24.130209 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.meu_projeto.stg_vendas_clientes, now model.meu_projeto.my_second_dbt_model)
+[0m11:06:24.131621 [debug] [Thread-1 (]: Began compiling node model.meu_projeto.my_second_dbt_model
+[0m11:06:24.136481 [debug] [Thread-1 (]: Writing injected SQL for node "model.meu_projeto.my_second_dbt_model"
+[0m11:06:24.139323 [debug] [Thread-1 (]: Began executing node model.meu_projeto.my_second_dbt_model
+[0m11:06:24.142466 [debug] [Thread-1 (]: Writing runtime sql for node "model.meu_projeto.my_second_dbt_model"
+[0m11:06:24.145460 [debug] [Thread-1 (]: Using snowflake connection "model.meu_projeto.my_second_dbt_model"
+[0m11:06:24.147285 [debug] [Thread-1 (]: On model.meu_projeto.my_second_dbt_model: create or replace   view ITAX.OURO.my_second_dbt_model
+  
+  
+  
+  
+  as (
+    -- Use the `ref` function to select from other models
+
+select *
+from ITAX.OURO.my_first_dbt_model
+where id = 1
+  )
+/* {"app": "dbt", "dbt_version": "1.10.11", "profile_name": "meu_projeto", "target_name": "dev", "node_id": "model.meu_projeto.my_second_dbt_model"} */;
+[0m11:06:24.482077 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.334 seconds
+[0m11:06:24.486413 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '4adfe117-e6fc-42d1-a82e-6d0b59ac1fae', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C6BE5B96D0>]}
+[0m11:06:24.487722 [info ] [Thread-1 (]: 4 of 4 OK created sql view model OURO.my_second_dbt_model ...................... [[32mSUCCESS 1[0m in 0.36s]
+[0m11:06:24.489087 [debug] [Thread-1 (]: Finished running node model.meu_projeto.my_second_dbt_model
+[0m11:06:24.490727 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m11:06:24.490990 [debug] [MainThread]: Connection 'list_ITAX' was left open.
+[0m11:06:24.491216 [debug] [MainThread]: On list_ITAX: Close
+[0m11:06:24.810662 [debug] [MainThread]: Connection 'list_ITAX_OURO' was left open.
+[0m11:06:24.811743 [debug] [MainThread]: On list_ITAX_OURO: Close
+[0m11:06:25.173255 [debug] [MainThread]: Connection 'model.meu_projeto.my_second_dbt_model' was left open.
+[0m11:06:25.174180 [debug] [MainThread]: On model.meu_projeto.my_second_dbt_model: Close
+[0m11:06:25.890210 [info ] [MainThread]: 
+[0m11:06:25.891320 [info ] [MainThread]: Finished running 1 incremental model, 1 table model, 2 view models in 0 hours 0 minutes and 14.36 seconds (14.36s).
+[0m11:06:25.892477 [debug] [MainThread]: Command end result
+[0m11:06:25.929158 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\gbrietzig\OneDrive - MARTINELLI ADVOGADOS\Área de Trabalho\ambiente\dbt\meu_projeto\target\manifest.json
+[0m11:06:25.934169 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\gbrietzig\OneDrive - MARTINELLI ADVOGADOS\Área de Trabalho\ambiente\dbt\meu_projeto\target\semantic_manifest.json
+[0m11:06:25.939320 [debug] [MainThread]: Wrote artifact RunExecutionResult to C:\Users\gbrietzig\OneDrive - MARTINELLI ADVOGADOS\Área de Trabalho\ambiente\dbt\meu_projeto\target\run_results.json
+[0m11:06:25.939661 [info ] [MainThread]: 
+[0m11:06:25.940858 [info ] [MainThread]: [31mCompleted with 2 errors, 0 partial successes, and 0 warnings:[0m
+[0m11:06:25.942038 [info ] [MainThread]: 
+[0m11:06:25.943647 [error] [MainThread]: [31mFailure in model fato_vendas (models\marts\fato_vendas.sql)[0m
+[0m11:06:25.946140 [error] [MainThread]:   Database Error in model fato_vendas (models\marts\fato_vendas.sql)
+  002003 (42S02): SQL compilation error:
+  Object 'CONTRIB_C010' does not exist or not authorized.
+  compiled code at target\run\meu_projeto\models\marts\fato_vendas.sql
+[0m11:06:25.947262 [info ] [MainThread]: 
+[0m11:06:25.948206 [info ] [MainThread]:   compiled code at target\compiled\meu_projeto\models\marts\fato_vendas.sql
+[0m11:06:25.948985 [info ] [MainThread]: 
+[0m11:06:25.950075 [error] [MainThread]: [31mFailure in model stg_vendas_clientes (models\marts\stg_vendas_clientes.sql)[0m
+[0m11:06:25.951419 [error] [MainThread]:   Database Error in model stg_vendas_clientes (models\marts\stg_vendas_clientes.sql)
+  002003 (02000): SQL compilation error:
+  Schema 'ITAX.PRATA' does not exist or not authorized.
+  compiled code at target\run\meu_projeto\models\marts\stg_vendas_clientes.sql
+[0m11:06:25.952649 [info ] [MainThread]: 
+[0m11:06:25.953695 [info ] [MainThread]:   compiled code at target\compiled\meu_projeto\models\marts\stg_vendas_clientes.sql
+[0m11:06:25.954692 [info ] [MainThread]: 
+[0m11:06:25.955614 [info ] [MainThread]: Done. PASS=2 WARN=0 ERROR=2 SKIP=0 NO-OP=0 TOTAL=4
+[0m11:06:25.957341 [debug] [MainThread]: Command `dbt run` failed at 11:06:25.957184 after 17.62 seconds
+[0m11:06:25.957700 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C6A2C1C7C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C69C2A0C20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C6A2BD47D0>]}
+[0m11:06:25.958038 [debug] [MainThread]: Flushing usage events
+[0m11:06:26.946575 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m11:08:40.726060 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FA56790440>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FA54089D10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FA575E7D90>]}
+
+
+============================== 11:08:40.740752 | 87578407-6dfb-4ad5-ab4f-8c3746201713 ==============================
+[0m11:08:40.740752 [info ] [MainThread]: Running with dbt=1.10.11
+[0m11:08:40.742259 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'target_path': 'None', 'cache_selected_only': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\gbrietzig\\OneDrive - MARTINELLI ADVOGADOS\\Área de Trabalho\\ambiente\\dbt\\meu_projeto', 'debug': 'False', 'static_parser': 'True', 'log_cache_events': 'False', 'empty': 'False', 'quiet': 'False', 'log_format': 'default', 'use_colors': 'True', 'partial_parse': 'True', 'version_check': 'True', 'log_path': 'C:\\Users\\gbrietzig\\OneDrive - MARTINELLI ADVOGADOS\\Área de Trabalho\\ambiente\\dbt\\meu_projeto\\logs', 'introspect': 'True', 'invocation_command': 'dbt run', 'fail_fast': 'False', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'no_print': 'None', 'send_anonymous_usage_stats': 'True', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'write_json': 'True'}
+[0m11:08:41.900683 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Credentials in profile "meu_projeto", target "dev" invalid: 'schema' is a required property
+[0m11:08:41.902335 [debug] [MainThread]: Command `dbt run` failed at 11:08:41.902201 after 1.38 seconds
+[0m11:08:41.902671 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FA719EE190>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FA71A2D370>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FA7196DD00>]}
+[0m11:08:41.903023 [debug] [MainThread]: Flushing usage events
+[0m11:08:42.878662 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m11:09:15.601457 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A8A6D10440>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A8A461DD10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A8A7B67D90>]}
+
+
+============================== 11:09:15.618528 | 8437a705-bbb1-4047-b009-f7fbd99ddf76 ==============================
+[0m11:09:15.618528 [info ] [MainThread]: Running with dbt=1.10.11
+[0m11:09:15.619843 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'target_path': 'None', 'cache_selected_only': 'False', 'warn_error': 'None', 'empty': 'False', 'debug': 'False', 'static_parser': 'True', 'log_cache_events': 'False', 'profiles_dir': 'C:\\Users\\gbrietzig\\OneDrive - MARTINELLI ADVOGADOS\\Área de Trabalho\\ambiente\\dbt\\meu_projeto', 'log_format': 'default', 'quiet': 'False', 'use_colors': 'True', 'partial_parse': 'True', 'version_check': 'True', 'log_path': 'C:\\Users\\gbrietzig\\OneDrive - MARTINELLI ADVOGADOS\\Área de Trabalho\\ambiente\\dbt\\meu_projeto\\logs', 'introspect': 'True', 'no_print': 'None', 'fail_fast': 'False', 'invocation_command': 'dbt run', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'send_anonymous_usage_stats': 'True', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'write_json': 'True'}
+[0m11:09:17.316687 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '8437a705-bbb1-4047-b009-f7fbd99ddf76', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A8A6EC0FC0>]}
+[0m11:09:17.371382 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '8437a705-bbb1-4047-b009-f7fbd99ddf76', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A8C1EEDAE0>]}
+[0m11:09:17.373143 [info ] [MainThread]: Registered adapter: snowflake=1.10.2
+[0m11:09:18.216621 [debug] [MainThread]: checksum: 5335e1629744fab92fa7809c625edbb36f0d7063a879d6215c971798f27e66f9, vars: {}, profile: , target: , version: 1.10.11
+[0m11:09:18.320403 [info ] [MainThread]: Unable to do partial parsing because a project config has changed
+[0m11:09:18.321350 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '8437a705-bbb1-4047-b009-f7fbd99ddf76', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A8C1F30850>]}
+[0m11:09:19.317116 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '8437a705-bbb1-4047-b009-f7fbd99ddf76', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A8C211FC50>]}
+[0m11:09:19.372496 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\gbrietzig\OneDrive - MARTINELLI ADVOGADOS\Área de Trabalho\ambiente\dbt\meu_projeto\target\manifest.json
+[0m11:09:19.380235 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\gbrietzig\OneDrive - MARTINELLI ADVOGADOS\Área de Trabalho\ambiente\dbt\meu_projeto\target\semantic_manifest.json
+[0m11:09:19.424586 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '8437a705-bbb1-4047-b009-f7fbd99ddf76', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A8C2782430>]}
+[0m11:09:19.425042 [info ] [MainThread]: Found 4 models, 10 data tests, 479 macros
+[0m11:09:19.425630 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '8437a705-bbb1-4047-b009-f7fbd99ddf76', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A8C2367450>]}
+[0m11:09:19.427162 [info ] [MainThread]: 
+[0m11:09:19.427699 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m11:09:19.428162 [info ] [MainThread]: 
+[0m11:09:19.428679 [debug] [MainThread]: Acquiring new snowflake connection 'master'
+[0m11:09:19.432321 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_ITAX'
+[0m11:09:19.662898 [debug] [ThreadPool]: Using snowflake connection "list_ITAX"
+[0m11:09:19.663306 [debug] [ThreadPool]: On list_ITAX: show terse schemas in database ITAX
+    limit 10000
+/* {"app": "dbt", "dbt_version": "1.10.11", "profile_name": "meu_projeto", "target_name": "dev", "connection_name": "list_ITAX"} */
+[0m11:09:19.663597 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m11:09:23.423581 [debug] [ThreadPool]: SQL status: SUCCESS 6 in 3.760 seconds
+[0m11:09:23.426205 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_ITAX_OURO'
+[0m11:09:23.441403 [debug] [ThreadPool]: Using snowflake connection "list_ITAX_OURO"
+[0m11:09:23.441819 [debug] [ThreadPool]: On list_ITAX_OURO: show objects in ITAX.OURO
+    limit 10000
+    
+
+/* {"app": "dbt", "dbt_version": "1.10.11", "profile_name": "meu_projeto", "target_name": "dev", "connection_name": "list_ITAX_OURO"} */;
+[0m11:09:23.442132 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m11:09:26.448448 [debug] [ThreadPool]: SQL status: SUCCESS 2 in 3.006 seconds
+[0m11:09:26.452104 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '8437a705-bbb1-4047-b009-f7fbd99ddf76', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A8C2BB9550>]}
+[0m11:09:26.487469 [debug] [Thread-1 (]: Began running node model.meu_projeto.fato_vendas
+[0m11:09:26.488363 [info ] [Thread-1 (]: 1 of 4 START sql incremental model OURO.fato_vendas ............................ [RUN]
+[0m11:09:26.489749 [debug] [Thread-1 (]: Acquiring new snowflake connection 'model.meu_projeto.fato_vendas'
+[0m11:09:26.490460 [debug] [Thread-1 (]: Began compiling node model.meu_projeto.fato_vendas
+[0m11:09:26.504092 [debug] [Thread-1 (]: Writing injected SQL for node "model.meu_projeto.fato_vendas"
+[0m11:09:26.507443 [debug] [Thread-1 (]: Began executing node model.meu_projeto.fato_vendas
+[0m11:09:26.560418 [debug] [Thread-1 (]: Writing runtime sql for node "model.meu_projeto.fato_vendas"
+[0m11:09:26.562340 [debug] [Thread-1 (]: Using snowflake connection "model.meu_projeto.fato_vendas"
+[0m11:09:26.562716 [debug] [Thread-1 (]: On model.meu_projeto.fato_vendas: create or replace transient table ITAX.OURO.fato_vendas
+    
+    
+    
+    as (
+
+SELECT
+    CONTRIB_0000.INFO_ROW:REG::string as REG,
+    CONTRIB_0000.INFO_ROW:CNPJ::string as CNPJ,
+    CONTRIB_C010.INFO_ROW:REG::string as REG,
+    CONTRIB_C010.INFO_ROW:CNPJ::string as CNPJ
+FROM
+    prata.CONTRIB_C010
+LEFT JOIN
+    prata.CONTRIB_C001 ON
+        CONTRIB_C001.FILE_ID = CONTRIB_C010.FILE_ID AND
+        CONTRIB_C001.ROW_NUMBER = CONTRIB_C010.FATHER_ROW
+LEFT JOIN
+    prata.CONTRIB_0000 ON
+        CONTRIB_0000.FILE_ID = CONTRIB_C001.FILE_ID AND
+        CONTRIB_0000.ROW_NUMBER = CONTRIB_C001.FATHER_ROW
+    )
+
+/* {"app": "dbt", "dbt_version": "1.10.11", "profile_name": "meu_projeto", "target_name": "dev", "node_id": "model.meu_projeto.fato_vendas"} */;
+[0m11:09:26.563026 [debug] [Thread-1 (]: Opening a new connection, currently in state init
+[0m11:09:29.894995 [debug] [Thread-1 (]: Snowflake adapter: Snowflake query id: 01bf1731-0002-ad53-0002-c77700099166
+[0m11:09:29.895809 [debug] [Thread-1 (]: Snowflake adapter: Snowflake error: 002003 (02000): SQL compilation error:
+Schema 'ITAX.PRATA' does not exist or not authorized.
+[0m11:09:29.903270 [debug] [Thread-1 (]: Database Error in model fato_vendas (models\marts\fato_vendas.sql)
+  002003 (02000): SQL compilation error:
+  Schema 'ITAX.PRATA' does not exist or not authorized.
+  compiled code at target\run\meu_projeto\models\marts\fato_vendas.sql
+[0m11:09:29.920692 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '8437a705-bbb1-4047-b009-f7fbd99ddf76', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A8C3598890>]}
+[0m11:09:29.921821 [error] [Thread-1 (]: 1 of 4 ERROR creating sql incremental model OURO.fato_vendas ................... [[31mERROR[0m in 3.41s]
+[0m11:09:29.923194 [debug] [Thread-1 (]: Finished running node model.meu_projeto.fato_vendas
+[0m11:09:29.923875 [debug] [Thread-1 (]: Began running node model.meu_projeto.my_first_dbt_model
+[0m11:09:29.924733 [debug] [Thread-4 (]: Marking all children of 'model.meu_projeto.fato_vendas' to be skipped because of status 'error'.  Reason: Database Error in model fato_vendas (models\marts\fato_vendas.sql)
+  002003 (02000): SQL compilation error:
+  Schema 'ITAX.PRATA' does not exist or not authorized.
+  compiled code at target\run\meu_projeto\models\marts\fato_vendas.sql.
+[0m11:09:29.925725 [info ] [Thread-1 (]: 2 of 4 START sql table model OURO.my_first_dbt_model ........................... [RUN]
+[0m11:09:29.928391 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.meu_projeto.fato_vendas, now model.meu_projeto.my_first_dbt_model)
+[0m11:09:29.929243 [debug] [Thread-1 (]: Began compiling node model.meu_projeto.my_first_dbt_model
+[0m11:09:29.953370 [debug] [Thread-1 (]: Writing injected SQL for node "model.meu_projeto.my_first_dbt_model"
+[0m11:09:29.958602 [debug] [Thread-1 (]: Began executing node model.meu_projeto.my_first_dbt_model
+[0m11:09:29.971443 [debug] [Thread-1 (]: Writing runtime sql for node "model.meu_projeto.my_first_dbt_model"
+[0m11:09:29.976604 [debug] [Thread-1 (]: Using snowflake connection "model.meu_projeto.my_first_dbt_model"
+[0m11:09:29.977478 [debug] [Thread-1 (]: On model.meu_projeto.my_first_dbt_model: create or replace transient table ITAX.OURO.my_first_dbt_model
+    
+    
+    
+    as (/*
+    Welcome to your first dbt model!
+    Did you know that you can also configure models directly within SQL files?
+    This will override configurations stated in dbt_project.yml
+
+    Try changing "table" to "view" below
+*/
+
+
+
+with source_data as (
+
+    select 1 as id
+    union all
+    select null as id
+
+)
+
+select *
+from source_data
+
+/*
+    Uncomment the line below to remove records with null `id` values
+*/
+
+-- where id is not null
+    )
+
+/* {"app": "dbt", "dbt_version": "1.10.11", "profile_name": "meu_projeto", "target_name": "dev", "node_id": "model.meu_projeto.my_first_dbt_model"} */;
+[0m11:09:31.320086 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 1.342 seconds
+[0m11:09:31.341777 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '8437a705-bbb1-4047-b009-f7fbd99ddf76', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A8C353CCD0>]}
+[0m11:09:31.342534 [info ] [Thread-1 (]: 2 of 4 OK created sql table model OURO.my_first_dbt_model ...................... [[32mSUCCESS 1[0m in 1.41s]
+[0m11:09:31.343349 [debug] [Thread-1 (]: Finished running node model.meu_projeto.my_first_dbt_model
+[0m11:09:31.343747 [debug] [Thread-1 (]: Began running node model.meu_projeto.stg_vendas_clientes
+[0m11:09:31.344368 [info ] [Thread-1 (]: 3 of 4 START sql view model OURO.stg_vendas_clientes ........................... [RUN]
+[0m11:09:31.344883 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.meu_projeto.my_first_dbt_model, now model.meu_projeto.stg_vendas_clientes)
+[0m11:09:31.345206 [debug] [Thread-1 (]: Began compiling node model.meu_projeto.stg_vendas_clientes
+[0m11:09:31.347040 [debug] [Thread-1 (]: Writing injected SQL for node "model.meu_projeto.stg_vendas_clientes"
+[0m11:09:31.348483 [debug] [Thread-1 (]: Began executing node model.meu_projeto.stg_vendas_clientes
+[0m11:09:31.375215 [debug] [Thread-1 (]: Writing runtime sql for node "model.meu_projeto.stg_vendas_clientes"
+[0m11:09:31.377623 [debug] [Thread-1 (]: Using snowflake connection "model.meu_projeto.stg_vendas_clientes"
+[0m11:09:31.378025 [debug] [Thread-1 (]: On model.meu_projeto.stg_vendas_clientes: create or replace   view ITAX.OURO.stg_vendas_clientes
+  
+  
+  
+  
+  as (
+    
+
+SELECT
+    CONTRIB_0000.INFO_ROW:REG::string as REG,
+    CONTRIB_0000.INFO_ROW:CNPJ::string as CNPJ,
+    CONTRIB_C010.INFO_ROW:REG::string as REG,
+    CONTRIB_C010.INFO_ROW:CNPJ::string as CNPJ
+FROM
+    prata.CONTRIB_C010
+LEFT JOIN
+    prata.CONTRIB_C001 ON
+        CONTRIB_C001.FILE_ID = CONTRIB_C010.FILE_ID AND
+        CONTRIB_C001.ROW_NUMBER = CONTRIB_C010.FATHER_ROW
+LEFT JOIN
+    prata.CONTRIB_0000 ON
+        CONTRIB_0000.FILE_ID = CONTRIB_C001.FILE_ID AND
+        CONTRIB_0000.ROW_NUMBER = CONTRIB_C001.FATHER_ROW
+  )
+/* {"app": "dbt", "dbt_version": "1.10.11", "profile_name": "meu_projeto", "target_name": "dev", "node_id": "model.meu_projeto.stg_vendas_clientes"} */;
+[0m11:09:31.560089 [debug] [Thread-1 (]: Snowflake adapter: Snowflake query id: 01bf1731-0002-ad88-0002-c7770009e14e
+[0m11:09:31.560864 [debug] [Thread-1 (]: Snowflake adapter: Snowflake error: 002003 (02000): SQL compilation error:
+Schema 'ITAX.PRATA' does not exist or not authorized.
+[0m11:09:31.581242 [debug] [Thread-1 (]: Database Error in model stg_vendas_clientes (models\marts\stg_vendas_clientes.sql)
+  002003 (02000): SQL compilation error:
+  Schema 'ITAX.PRATA' does not exist or not authorized.
+  compiled code at target\run\meu_projeto\models\marts\stg_vendas_clientes.sql
+[0m11:09:31.582189 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '8437a705-bbb1-4047-b009-f7fbd99ddf76', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A8C24D1C50>]}
+[0m11:09:31.583210 [error] [Thread-1 (]: 3 of 4 ERROR creating sql view model OURO.stg_vendas_clientes .................. [[31mERROR[0m in 0.24s]
+[0m11:09:31.584466 [debug] [Thread-1 (]: Finished running node model.meu_projeto.stg_vendas_clientes
+[0m11:09:31.585040 [debug] [Thread-1 (]: Began running node model.meu_projeto.my_second_dbt_model
+[0m11:09:31.586356 [debug] [Thread-4 (]: Marking all children of 'model.meu_projeto.stg_vendas_clientes' to be skipped because of status 'error'.  Reason: Database Error in model stg_vendas_clientes (models\marts\stg_vendas_clientes.sql)
+  002003 (02000): SQL compilation error:
+  Schema 'ITAX.PRATA' does not exist or not authorized.
+  compiled code at target\run\meu_projeto\models\marts\stg_vendas_clientes.sql.
+[0m11:09:31.585679 [info ] [Thread-1 (]: 4 of 4 START sql view model OURO.my_second_dbt_model ........................... [RUN]
+[0m11:09:31.587402 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.meu_projeto.stg_vendas_clientes, now model.meu_projeto.my_second_dbt_model)
+[0m11:09:31.587700 [debug] [Thread-1 (]: Began compiling node model.meu_projeto.my_second_dbt_model
+[0m11:09:31.589932 [debug] [Thread-1 (]: Writing injected SQL for node "model.meu_projeto.my_second_dbt_model"
+[0m11:09:31.591316 [debug] [Thread-1 (]: Began executing node model.meu_projeto.my_second_dbt_model
+[0m11:09:31.593446 [debug] [Thread-1 (]: Writing runtime sql for node "model.meu_projeto.my_second_dbt_model"
+[0m11:09:31.594788 [debug] [Thread-1 (]: Using snowflake connection "model.meu_projeto.my_second_dbt_model"
+[0m11:09:31.595272 [debug] [Thread-1 (]: On model.meu_projeto.my_second_dbt_model: create or replace   view ITAX.OURO.my_second_dbt_model
+  
+  
+  
+  
+  as (
+    -- Use the `ref` function to select from other models
+
+select *
+from ITAX.OURO.my_first_dbt_model
+where id = 1
+  )
+/* {"app": "dbt", "dbt_version": "1.10.11", "profile_name": "meu_projeto", "target_name": "dev", "node_id": "model.meu_projeto.my_second_dbt_model"} */;
+[0m11:09:31.911054 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.315 seconds
+[0m11:09:31.914832 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '8437a705-bbb1-4047-b009-f7fbd99ddf76', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A8C355B2A0>]}
+[0m11:09:31.915855 [info ] [Thread-1 (]: 4 of 4 OK created sql view model OURO.my_second_dbt_model ...................... [[32mSUCCESS 1[0m in 0.33s]
+[0m11:09:31.916786 [debug] [Thread-1 (]: Finished running node model.meu_projeto.my_second_dbt_model
+[0m11:09:31.918685 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m11:09:31.919420 [debug] [MainThread]: Connection 'list_ITAX' was left open.
+[0m11:09:31.920128 [debug] [MainThread]: On list_ITAX: Close
+[0m11:09:32.215533 [debug] [MainThread]: Connection 'list_ITAX_OURO' was left open.
+[0m11:09:32.216158 [debug] [MainThread]: On list_ITAX_OURO: Close
+[0m11:09:32.505517 [debug] [MainThread]: Connection 'model.meu_projeto.my_second_dbt_model' was left open.
+[0m11:09:32.506140 [debug] [MainThread]: On model.meu_projeto.my_second_dbt_model: Close
+[0m11:09:32.833352 [info ] [MainThread]: 
+[0m11:09:32.834478 [info ] [MainThread]: Finished running 1 incremental model, 1 table model, 2 view models in 0 hours 0 minutes and 13.40 seconds (13.40s).
+[0m11:09:32.835587 [debug] [MainThread]: Command end result
+[0m11:09:32.865257 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\gbrietzig\OneDrive - MARTINELLI ADVOGADOS\Área de Trabalho\ambiente\dbt\meu_projeto\target\manifest.json
+[0m11:09:32.872626 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\gbrietzig\OneDrive - MARTINELLI ADVOGADOS\Área de Trabalho\ambiente\dbt\meu_projeto\target\semantic_manifest.json
+[0m11:09:32.879155 [debug] [MainThread]: Wrote artifact RunExecutionResult to C:\Users\gbrietzig\OneDrive - MARTINELLI ADVOGADOS\Área de Trabalho\ambiente\dbt\meu_projeto\target\run_results.json
+[0m11:09:32.879530 [info ] [MainThread]: 
+[0m11:09:32.880137 [info ] [MainThread]: [31mCompleted with 2 errors, 0 partial successes, and 0 warnings:[0m
+[0m11:09:32.880622 [info ] [MainThread]: 
+[0m11:09:32.881143 [error] [MainThread]: [31mFailure in model fato_vendas (models\marts\fato_vendas.sql)[0m
+[0m11:09:32.881723 [error] [MainThread]:   Database Error in model fato_vendas (models\marts\fato_vendas.sql)
+  002003 (02000): SQL compilation error:
+  Schema 'ITAX.PRATA' does not exist or not authorized.
+  compiled code at target\run\meu_projeto\models\marts\fato_vendas.sql
+[0m11:09:32.882347 [info ] [MainThread]: 
+[0m11:09:32.882923 [info ] [MainThread]:   compiled code at target\compiled\meu_projeto\models\marts\fato_vendas.sql
+[0m11:09:32.883370 [info ] [MainThread]: 
+[0m11:09:32.883767 [error] [MainThread]: [31mFailure in model stg_vendas_clientes (models\marts\stg_vendas_clientes.sql)[0m
+[0m11:09:32.884177 [error] [MainThread]:   Database Error in model stg_vendas_clientes (models\marts\stg_vendas_clientes.sql)
+  002003 (02000): SQL compilation error:
+  Schema 'ITAX.PRATA' does not exist or not authorized.
+  compiled code at target\run\meu_projeto\models\marts\stg_vendas_clientes.sql
+[0m11:09:32.884596 [info ] [MainThread]: 
+[0m11:09:32.885436 [info ] [MainThread]:   compiled code at target\compiled\meu_projeto\models\marts\stg_vendas_clientes.sql
+[0m11:09:32.886655 [info ] [MainThread]: 
+[0m11:09:32.887349 [info ] [MainThread]: Done. PASS=2 WARN=0 ERROR=2 SKIP=0 NO-OP=0 TOTAL=4
+[0m11:09:32.888883 [debug] [MainThread]: Command `dbt run` failed at 11:09:32.888675 after 17.46 seconds
+[0m11:09:32.889345 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A8A6D855B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A8C3610050>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A8C3613AD0>]}
+[0m11:09:32.890180 [debug] [MainThread]: Flushing usage events
+[0m11:09:33.846785 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m11:10:05.715205 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CE102C0440>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CE0DBC9D10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CE1110FD90>]}
+
+
+============================== 11:10:05.726134 | 208bdca6-057f-4f31-abe2-d66e15e643d4 ==============================
+[0m11:10:05.726134 [info ] [MainThread]: Running with dbt=1.10.11
+[0m11:10:05.727758 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'use_experimental_parser': 'False', 'cache_selected_only': 'False', 'warn_error': 'None', 'empty': 'False', 'debug': 'False', 'static_parser': 'True', 'log_cache_events': 'False', 'profiles_dir': 'C:\\Users\\gbrietzig\\OneDrive - MARTINELLI ADVOGADOS\\Área de Trabalho\\ambiente\\dbt\\meu_projeto', 'quiet': 'False', 'log_format': 'default', 'use_colors': 'True', 'partial_parse': 'True', 'version_check': 'True', 'log_path': 'C:\\Users\\gbrietzig\\OneDrive - MARTINELLI ADVOGADOS\\Área de Trabalho\\ambiente\\dbt\\meu_projeto\\logs', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'fail_fast': 'False', 'no_print': 'None', 'invocation_command': 'dbt run', 'send_anonymous_usage_stats': 'True', 'indirect_selection': 'eager', 'write_json': 'True', 'target_path': 'None'}
+[0m11:10:06.822416 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '208bdca6-057f-4f31-abe2-d66e15e643d4', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CE10474FC0>]}
+[0m11:10:06.869094 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '208bdca6-057f-4f31-abe2-d66e15e643d4', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CE2B4ADAE0>]}
+[0m11:10:06.870546 [info ] [MainThread]: Registered adapter: snowflake=1.10.2
+[0m11:10:07.628778 [debug] [MainThread]: checksum: 5335e1629744fab92fa7809c625edbb36f0d7063a879d6215c971798f27e66f9, vars: {}, profile: , target: , version: 1.10.11
+[0m11:10:07.878961 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+[0m11:10:07.879590 [debug] [MainThread]: Partial parsing: updated file: meu_projeto://models\marts\stg_vendas_clientes.sql
+[0m11:10:08.174576 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '208bdca6-057f-4f31-abe2-d66e15e643d4', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CE2BBE0D50>]}
+[0m11:10:08.225883 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\gbrietzig\OneDrive - MARTINELLI ADVOGADOS\Área de Trabalho\ambiente\dbt\meu_projeto\target\manifest.json
+[0m11:10:08.229106 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\gbrietzig\OneDrive - MARTINELLI ADVOGADOS\Área de Trabalho\ambiente\dbt\meu_projeto\target\semantic_manifest.json
+[0m11:10:08.260813 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '208bdca6-057f-4f31-abe2-d66e15e643d4', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CE2B927D40>]}
+[0m11:10:08.261282 [info ] [MainThread]: Found 4 models, 10 data tests, 479 macros
+[0m11:10:08.262019 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '208bdca6-057f-4f31-abe2-d66e15e643d4', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CE2BD68750>]}
+[0m11:10:08.263525 [info ] [MainThread]: 
+[0m11:10:08.264189 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m11:10:08.264758 [info ] [MainThread]: 
+[0m11:10:08.265428 [debug] [MainThread]: Acquiring new snowflake connection 'master'
+[0m11:10:08.269194 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_ITAX'
+[0m11:10:08.462142 [debug] [ThreadPool]: Using snowflake connection "list_ITAX"
+[0m11:10:08.462633 [debug] [ThreadPool]: On list_ITAX: show terse schemas in database ITAX
+    limit 10000
+/* {"app": "dbt", "dbt_version": "1.10.11", "profile_name": "meu_projeto", "target_name": "dev", "connection_name": "list_ITAX"} */
+[0m11:10:08.463005 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m11:10:11.829583 [debug] [ThreadPool]: SQL status: SUCCESS 6 in 3.366 seconds
+[0m11:10:11.834205 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_ITAX_OURO'
+[0m11:10:11.855524 [debug] [ThreadPool]: Using snowflake connection "list_ITAX_OURO"
+[0m11:10:11.855939 [debug] [ThreadPool]: On list_ITAX_OURO: show objects in ITAX.OURO
+    limit 10000
+    
+
+/* {"app": "dbt", "dbt_version": "1.10.11", "profile_name": "meu_projeto", "target_name": "dev", "connection_name": "list_ITAX_OURO"} */;
+[0m11:10:11.856209 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m11:10:14.853664 [debug] [ThreadPool]: SQL status: SUCCESS 2 in 2.997 seconds
+[0m11:10:14.857567 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '208bdca6-057f-4f31-abe2-d66e15e643d4', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CE2BF32750>]}
+[0m11:10:14.862162 [debug] [Thread-1 (]: Began running node model.meu_projeto.fato_vendas
+[0m11:10:14.862655 [info ] [Thread-1 (]: 1 of 4 START sql incremental model OURO.fato_vendas ............................ [RUN]
+[0m11:10:14.863324 [debug] [Thread-1 (]: Acquiring new snowflake connection 'model.meu_projeto.fato_vendas'
+[0m11:10:14.863641 [debug] [Thread-1 (]: Began compiling node model.meu_projeto.fato_vendas
+[0m11:10:14.868830 [debug] [Thread-1 (]: Writing injected SQL for node "model.meu_projeto.fato_vendas"
+[0m11:10:14.870207 [debug] [Thread-1 (]: Began executing node model.meu_projeto.fato_vendas
+[0m11:10:14.931953 [debug] [Thread-1 (]: Writing runtime sql for node "model.meu_projeto.fato_vendas"
+[0m11:10:14.934684 [debug] [Thread-1 (]: Using snowflake connection "model.meu_projeto.fato_vendas"
+[0m11:10:14.935903 [debug] [Thread-1 (]: On model.meu_projeto.fato_vendas: create or replace transient table ITAX.OURO.fato_vendas
+    
+    
+    
+    as (
+
+SELECT
+    CONTRIB_0000.INFO_ROW:REG::string as REG,
+    CONTRIB_0000.INFO_ROW:CNPJ::string as CNPJ,
+    CONTRIB_C010.INFO_ROW:REG::string as REG,
+    CONTRIB_C010.INFO_ROW:CNPJ::string as CNPJ
+FROM
+    prata.CONTRIB_C010
+LEFT JOIN
+    prata.CONTRIB_C001 ON
+        CONTRIB_C001.FILE_ID = CONTRIB_C010.FILE_ID AND
+        CONTRIB_C001.ROW_NUMBER = CONTRIB_C010.FATHER_ROW
+LEFT JOIN
+    prata.CONTRIB_0000 ON
+        CONTRIB_0000.FILE_ID = CONTRIB_C001.FILE_ID AND
+        CONTRIB_0000.ROW_NUMBER = CONTRIB_C001.FATHER_ROW
+    )
+
+/* {"app": "dbt", "dbt_version": "1.10.11", "profile_name": "meu_projeto", "target_name": "dev", "node_id": "model.meu_projeto.fato_vendas"} */;
+[0m11:10:14.936708 [debug] [Thread-1 (]: Opening a new connection, currently in state init
+[0m11:10:17.931440 [debug] [Thread-1 (]: Snowflake adapter: Snowflake query id: 01bf1732-0002-ad53-0002-c77700099172
+[0m11:10:17.931863 [debug] [Thread-1 (]: Snowflake adapter: Snowflake error: 002003 (02000): SQL compilation error:
+Schema 'ITAX.PRATA' does not exist or not authorized.
+[0m11:10:17.939549 [debug] [Thread-1 (]: Database Error in model fato_vendas (models\marts\fato_vendas.sql)
+  002003 (02000): SQL compilation error:
+  Schema 'ITAX.PRATA' does not exist or not authorized.
+  compiled code at target\run\meu_projeto\models\marts\fato_vendas.sql
+[0m11:10:17.943056 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '208bdca6-057f-4f31-abe2-d66e15e643d4', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CE2C364410>]}
+[0m11:10:17.943648 [error] [Thread-1 (]: 1 of 4 ERROR creating sql incremental model OURO.fato_vendas ................... [[31mERROR[0m in 3.08s]
+[0m11:10:17.944618 [debug] [Thread-1 (]: Finished running node model.meu_projeto.fato_vendas
+[0m11:10:17.945011 [debug] [Thread-1 (]: Began running node model.meu_projeto.my_first_dbt_model
+[0m11:10:17.945990 [debug] [Thread-4 (]: Marking all children of 'model.meu_projeto.fato_vendas' to be skipped because of status 'error'.  Reason: Database Error in model fato_vendas (models\marts\fato_vendas.sql)
+  002003 (02000): SQL compilation error:
+  Schema 'ITAX.PRATA' does not exist or not authorized.
+  compiled code at target\run\meu_projeto\models\marts\fato_vendas.sql.
+[0m11:10:17.945399 [info ] [Thread-1 (]: 2 of 4 START sql table model OURO.my_first_dbt_model ........................... [RUN]
+[0m11:10:17.947422 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.meu_projeto.fato_vendas, now model.meu_projeto.my_first_dbt_model)
+[0m11:10:17.947987 [debug] [Thread-1 (]: Began compiling node model.meu_projeto.my_first_dbt_model
+[0m11:10:17.951941 [debug] [Thread-1 (]: Writing injected SQL for node "model.meu_projeto.my_first_dbt_model"
+[0m11:10:17.953853 [debug] [Thread-1 (]: Began executing node model.meu_projeto.my_first_dbt_model
+[0m11:10:17.964681 [debug] [Thread-1 (]: Writing runtime sql for node "model.meu_projeto.my_first_dbt_model"
+[0m11:10:17.966400 [debug] [Thread-1 (]: Using snowflake connection "model.meu_projeto.my_first_dbt_model"
+[0m11:10:17.966832 [debug] [Thread-1 (]: On model.meu_projeto.my_first_dbt_model: create or replace transient table ITAX.OURO.my_first_dbt_model
+    
+    
+    
+    as (/*
+    Welcome to your first dbt model!
+    Did you know that you can also configure models directly within SQL files?
+    This will override configurations stated in dbt_project.yml
+
+    Try changing "table" to "view" below
+*/
+
+
+
+with source_data as (
+
+    select 1 as id
+    union all
+    select null as id
+
+)
+
+select *
+from source_data
+
+/*
+    Uncomment the line below to remove records with null `id` values
+*/
+
+-- where id is not null
+    )
+
+/* {"app": "dbt", "dbt_version": "1.10.11", "profile_name": "meu_projeto", "target_name": "dev", "node_id": "model.meu_projeto.my_first_dbt_model"} */;
+[0m11:10:19.703183 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 1.736 seconds
+[0m11:10:19.724794 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '208bdca6-057f-4f31-abe2-d66e15e643d4', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CE2C3F10D0>]}
+[0m11:10:19.725364 [info ] [Thread-1 (]: 2 of 4 OK created sql table model OURO.my_first_dbt_model ...................... [[32mSUCCESS 1[0m in 1.78s]
+[0m11:10:19.726202 [debug] [Thread-1 (]: Finished running node model.meu_projeto.my_first_dbt_model
+[0m11:10:19.726569 [debug] [Thread-1 (]: Began running node model.meu_projeto.stg_vendas_clientes
+[0m11:10:19.726956 [info ] [Thread-1 (]: 3 of 4 START sql view model OURO.stg_vendas_clientes ........................... [RUN]
+[0m11:10:19.727680 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.meu_projeto.my_first_dbt_model, now model.meu_projeto.stg_vendas_clientes)
+[0m11:10:19.727994 [debug] [Thread-1 (]: Began compiling node model.meu_projeto.stg_vendas_clientes
+[0m11:10:19.729853 [debug] [Thread-1 (]: Writing injected SQL for node "model.meu_projeto.stg_vendas_clientes"
+[0m11:10:19.731437 [debug] [Thread-1 (]: Began executing node model.meu_projeto.stg_vendas_clientes
+[0m11:10:19.761405 [debug] [Thread-1 (]: Writing runtime sql for node "model.meu_projeto.stg_vendas_clientes"
+[0m11:10:19.763608 [debug] [Thread-1 (]: Using snowflake connection "model.meu_projeto.stg_vendas_clientes"
+[0m11:10:19.764762 [debug] [Thread-1 (]: On model.meu_projeto.stg_vendas_clientes: create or replace   view ITAX.OURO.stg_vendas_clientes
+  
+  
+  
+  
+  as (
+    
+
+SELECT
+    CONTRIB_0000.INFO_ROW:REG::string as REG,
+    CONTRIB_0000.INFO_ROW:CNPJ::string as CNPJ,
+    CONTRIB_C010.INFO_ROW:REG::string as REG,
+    CONTRIB_C010.INFO_ROW:CNPJ::string as CNPJ
+FROM
+    SILVER.CONTRIB_C010
+LEFT JOIN
+    SILVER.CONTRIB_C001 ON
+        CONTRIB_C001.FILE_ID = CONTRIB_C010.FILE_ID AND
+        CONTRIB_C001.ROW_NUMBER = CONTRIB_C010.FATHER_ROW
+LEFT JOIN
+    SILVER.CONTRIB_0000 ON
+        CONTRIB_0000.FILE_ID = CONTRIB_C001.FILE_ID AND
+        CONTRIB_0000.ROW_NUMBER = CONTRIB_C001.FATHER_ROW
+  )
+/* {"app": "dbt", "dbt_version": "1.10.11", "profile_name": "meu_projeto", "target_name": "dev", "node_id": "model.meu_projeto.stg_vendas_clientes"} */;
+[0m11:10:20.000041 [debug] [Thread-1 (]: Snowflake adapter: Snowflake query id: 01bf1732-0002-ad1d-0002-c77700093156
+[0m11:10:20.001046 [debug] [Thread-1 (]: Snowflake adapter: Snowflake error: 002025 (42S21): SQL compilation error:
+duplicate column name 'REG'
+[0m11:10:20.011039 [debug] [Thread-1 (]: Database Error in model stg_vendas_clientes (models\marts\stg_vendas_clientes.sql)
+  002025 (42S21): SQL compilation error:
+  duplicate column name 'REG'
+  compiled code at target\run\meu_projeto\models\marts\stg_vendas_clientes.sql
+[0m11:10:20.011657 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '208bdca6-057f-4f31-abe2-d66e15e643d4', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CE2CB905F0>]}
+[0m11:10:20.012283 [error] [Thread-1 (]: 3 of 4 ERROR creating sql view model OURO.stg_vendas_clientes .................. [[31mERROR[0m in 0.28s]
+[0m11:10:20.013156 [debug] [Thread-1 (]: Finished running node model.meu_projeto.stg_vendas_clientes
+[0m11:10:20.013486 [debug] [Thread-1 (]: Began running node model.meu_projeto.my_second_dbt_model
+[0m11:10:20.014073 [debug] [Thread-4 (]: Marking all children of 'model.meu_projeto.stg_vendas_clientes' to be skipped because of status 'error'.  Reason: Database Error in model stg_vendas_clientes (models\marts\stg_vendas_clientes.sql)
+  002025 (42S21): SQL compilation error:
+  duplicate column name 'REG'
+  compiled code at target\run\meu_projeto\models\marts\stg_vendas_clientes.sql.
+[0m11:10:20.014726 [info ] [Thread-1 (]: 4 of 4 START sql view model OURO.my_second_dbt_model ........................... [RUN]
+[0m11:10:20.015500 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.meu_projeto.stg_vendas_clientes, now model.meu_projeto.my_second_dbt_model)
+[0m11:10:20.015796 [debug] [Thread-1 (]: Began compiling node model.meu_projeto.my_second_dbt_model
+[0m11:10:20.017845 [debug] [Thread-1 (]: Writing injected SQL for node "model.meu_projeto.my_second_dbt_model"
+[0m11:10:20.019113 [debug] [Thread-1 (]: Began executing node model.meu_projeto.my_second_dbt_model
+[0m11:10:20.023280 [debug] [Thread-1 (]: Writing runtime sql for node "model.meu_projeto.my_second_dbt_model"
+[0m11:10:20.028497 [debug] [Thread-1 (]: Using snowflake connection "model.meu_projeto.my_second_dbt_model"
+[0m11:10:20.030428 [debug] [Thread-1 (]: On model.meu_projeto.my_second_dbt_model: create or replace   view ITAX.OURO.my_second_dbt_model
+  
+  
+  
+  
+  as (
+    -- Use the `ref` function to select from other models
+
+select *
+from ITAX.OURO.my_first_dbt_model
+where id = 1
+  )
+/* {"app": "dbt", "dbt_version": "1.10.11", "profile_name": "meu_projeto", "target_name": "dev", "node_id": "model.meu_projeto.my_second_dbt_model"} */;
+[0m11:10:20.433645 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.401 seconds
+[0m11:10:20.437416 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '208bdca6-057f-4f31-abe2-d66e15e643d4', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CE2CB18ED0>]}
+[0m11:10:20.438780 [info ] [Thread-1 (]: 4 of 4 OK created sql view model OURO.my_second_dbt_model ...................... [[32mSUCCESS 1[0m in 0.42s]
+[0m11:10:20.440524 [debug] [Thread-1 (]: Finished running node model.meu_projeto.my_second_dbt_model
+[0m11:10:20.443128 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m11:10:20.443462 [debug] [MainThread]: Connection 'list_ITAX' was left open.
+[0m11:10:20.443775 [debug] [MainThread]: On list_ITAX: Close
+[0m11:10:20.787270 [debug] [MainThread]: Connection 'list_ITAX_OURO' was left open.
+[0m11:10:20.787971 [debug] [MainThread]: On list_ITAX_OURO: Close
+[0m11:10:21.095420 [debug] [MainThread]: Connection 'model.meu_projeto.my_second_dbt_model' was left open.
+[0m11:10:21.096112 [debug] [MainThread]: On model.meu_projeto.my_second_dbt_model: Close
+[0m11:10:21.426828 [info ] [MainThread]: 
+[0m11:10:21.427834 [info ] [MainThread]: Finished running 1 incremental model, 1 table model, 2 view models in 0 hours 0 minutes and 13.16 seconds (13.16s).
+[0m11:10:21.429133 [debug] [MainThread]: Command end result
+[0m11:10:21.468603 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\gbrietzig\OneDrive - MARTINELLI ADVOGADOS\Área de Trabalho\ambiente\dbt\meu_projeto\target\manifest.json
+[0m11:10:21.477998 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\gbrietzig\OneDrive - MARTINELLI ADVOGADOS\Área de Trabalho\ambiente\dbt\meu_projeto\target\semantic_manifest.json
+[0m11:10:21.483980 [debug] [MainThread]: Wrote artifact RunExecutionResult to C:\Users\gbrietzig\OneDrive - MARTINELLI ADVOGADOS\Área de Trabalho\ambiente\dbt\meu_projeto\target\run_results.json
+[0m11:10:21.484644 [info ] [MainThread]: 
+[0m11:10:21.485907 [info ] [MainThread]: [31mCompleted with 2 errors, 0 partial successes, and 0 warnings:[0m
+[0m11:10:21.486858 [info ] [MainThread]: 
+[0m11:10:21.488721 [error] [MainThread]: [31mFailure in model fato_vendas (models\marts\fato_vendas.sql)[0m
+[0m11:10:21.489929 [error] [MainThread]:   Database Error in model fato_vendas (models\marts\fato_vendas.sql)
+  002003 (02000): SQL compilation error:
+  Schema 'ITAX.PRATA' does not exist or not authorized.
+  compiled code at target\run\meu_projeto\models\marts\fato_vendas.sql
+[0m11:10:21.490670 [info ] [MainThread]: 
+[0m11:10:21.491190 [info ] [MainThread]:   compiled code at target\compiled\meu_projeto\models\marts\fato_vendas.sql
+[0m11:10:21.491763 [info ] [MainThread]: 
+[0m11:10:21.492407 [error] [MainThread]: [31mFailure in model stg_vendas_clientes (models\marts\stg_vendas_clientes.sql)[0m
+[0m11:10:21.492954 [error] [MainThread]:   Database Error in model stg_vendas_clientes (models\marts\stg_vendas_clientes.sql)
+  002025 (42S21): SQL compilation error:
+  duplicate column name 'REG'
+  compiled code at target\run\meu_projeto\models\marts\stg_vendas_clientes.sql
+[0m11:10:21.493422 [info ] [MainThread]: 
+[0m11:10:21.493938 [info ] [MainThread]:   compiled code at target\compiled\meu_projeto\models\marts\stg_vendas_clientes.sql
+[0m11:10:21.494315 [info ] [MainThread]: 
+[0m11:10:21.494703 [info ] [MainThread]: Done. PASS=2 WARN=0 ERROR=2 SKIP=0 NO-OP=0 TOTAL=4
+[0m11:10:21.495796 [debug] [MainThread]: Command `dbt run` failed at 11:10:21.495684 after 15.98 seconds
+[0m11:10:21.496136 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CE1117C7C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CE0A7E0C20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CE2C3718B0>]}
+[0m11:10:21.496443 [debug] [MainThread]: Flushing usage events
+[0m11:10:22.438858 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m11:25:58.610278 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002796DC00440>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002796B4F9D10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002796EA57D90>]}
+
+
+============================== 11:25:58.616650 | a8f77c98-098a-4907-b30a-02eb7eccd0d2 ==============================
+[0m11:25:58.616650 [info ] [MainThread]: Running with dbt=1.10.11
+[0m11:25:58.617720 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'target_path': 'None', 'cache_selected_only': 'False', 'warn_error': 'None', 'empty': 'False', 'debug': 'False', 'static_parser': 'True', 'log_cache_events': 'False', 'profiles_dir': 'C:\\Users\\gbrietzig\\OneDrive - MARTINELLI ADVOGADOS\\Área de Trabalho\\ambiente\\dbt\\meu_projeto', 'log_format': 'default', 'quiet': 'False', 'use_colors': 'True', 'partial_parse': 'True', 'version_check': 'True', 'log_path': 'C:\\Users\\gbrietzig\\OneDrive - MARTINELLI ADVOGADOS\\Área de Trabalho\\ambiente\\dbt\\meu_projeto\\logs', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'fail_fast': 'False', 'invocation_command': 'dbt run', 'no_print': 'None', 'send_anonymous_usage_stats': 'True', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'write_json': 'True'}
+[0m11:26:00.745123 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'a8f77c98-098a-4907-b30a-02eb7eccd0d2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002796DDB0FC0>]}
+[0m11:26:00.794958 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'a8f77c98-098a-4907-b30a-02eb7eccd0d2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027908F5DAE0>]}
+[0m11:26:00.798022 [info ] [MainThread]: Registered adapter: snowflake=1.10.2
+[0m11:26:01.752749 [debug] [MainThread]: checksum: 5335e1629744fab92fa7809c625edbb36f0d7063a879d6215c971798f27e66f9, vars: {}, profile: , target: , version: 1.10.11
+[0m11:26:02.097118 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+[0m11:26:02.097720 [debug] [MainThread]: Partial parsing: updated file: meu_projeto://models\marts\fato_vendas.sql
+[0m11:26:02.414645 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'a8f77c98-098a-4907-b30a-02eb7eccd0d2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027909690D50>]}
+[0m11:26:02.473581 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\gbrietzig\OneDrive - MARTINELLI ADVOGADOS\Área de Trabalho\ambiente\dbt\meu_projeto\target\manifest.json
+[0m11:26:02.478229 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\gbrietzig\OneDrive - MARTINELLI ADVOGADOS\Área de Trabalho\ambiente\dbt\meu_projeto\target\semantic_manifest.json
+[0m11:26:02.554757 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'a8f77c98-098a-4907-b30a-02eb7eccd0d2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000279093D3D40>]}
+[0m11:26:02.555307 [info ] [MainThread]: Found 4 models, 10 data tests, 479 macros
+[0m11:26:02.557231 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'a8f77c98-098a-4907-b30a-02eb7eccd0d2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027909818750>]}
+[0m11:26:02.562641 [info ] [MainThread]: 
+[0m11:26:02.564028 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m11:26:02.566131 [info ] [MainThread]: 
+[0m11:26:02.567890 [debug] [MainThread]: Acquiring new snowflake connection 'master'
+[0m11:26:02.574130 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_ITAX'
+[0m11:26:02.944117 [debug] [ThreadPool]: Using snowflake connection "list_ITAX"
+[0m11:26:02.944519 [debug] [ThreadPool]: On list_ITAX: show terse schemas in database ITAX
+    limit 10000
+/* {"app": "dbt", "dbt_version": "1.10.11", "profile_name": "meu_projeto", "target_name": "dev", "connection_name": "list_ITAX"} */
+[0m11:26:02.944780 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m11:26:06.378122 [debug] [ThreadPool]: SQL status: SUCCESS 5 in 3.433 seconds
+[0m11:26:06.383093 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_ITAX_OURO'
+[0m11:26:06.404667 [debug] [ThreadPool]: Using snowflake connection "list_ITAX_OURO"
+[0m11:26:06.405129 [debug] [ThreadPool]: On list_ITAX_OURO: show objects in ITAX.OURO
+    limit 10000
+    
+
+/* {"app": "dbt", "dbt_version": "1.10.11", "profile_name": "meu_projeto", "target_name": "dev", "connection_name": "list_ITAX_OURO"} */;
+[0m11:26:06.405458 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m11:26:09.331973 [debug] [ThreadPool]: SQL status: SUCCESS 0 in 2.926 seconds
+[0m11:26:09.334703 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'a8f77c98-098a-4907-b30a-02eb7eccd0d2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000279099F2820>]}
+[0m11:26:09.355421 [debug] [Thread-1 (]: Began running node model.meu_projeto.fato_vendas
+[0m11:26:09.356513 [info ] [Thread-1 (]: 1 of 4 START sql incremental model OURO.fato_vendas ............................ [RUN]
+[0m11:26:09.357828 [debug] [Thread-1 (]: Acquiring new snowflake connection 'model.meu_projeto.fato_vendas'
+[0m11:26:09.358588 [debug] [Thread-1 (]: Began compiling node model.meu_projeto.fato_vendas
+[0m11:26:09.371240 [debug] [Thread-1 (]: Writing injected SQL for node "model.meu_projeto.fato_vendas"
+[0m11:26:09.378079 [debug] [Thread-1 (]: Began executing node model.meu_projeto.fato_vendas
+[0m11:26:09.447865 [debug] [Thread-1 (]: Writing runtime sql for node "model.meu_projeto.fato_vendas"
+[0m11:26:09.450109 [debug] [Thread-1 (]: Using snowflake connection "model.meu_projeto.fato_vendas"
+[0m11:26:09.450539 [debug] [Thread-1 (]: On model.meu_projeto.fato_vendas: create or replace transient table ITAX.OURO.fato_vendas
+    
+    
+    
+    as (
+
+SELECT
+    CONTRIB_0000.INFO_ROW:REG::string as REG,
+    CONTRIB_0000.INFO_ROW:CNPJ::string as CNPJ,
+    CONTRIB_C010.INFO_ROW:REG::string as REG,
+    CONTRIB_C010.INFO_ROW:CNPJ::string as CNPJ
+FROM
+    SILVER.CONTRIB_C010
+LEFT JOIN
+    SILVER.CONTRIB_C001 ON
+        CONTRIB_C001.FILE_ID = CONTRIB_C010.FILE_ID AND
+        CONTRIB_C001.ROW_NUMBER = CONTRIB_C010.FATHER_ROW
+LEFT JOIN
+    SILVER.CONTRIB_0000 ON
+        CONTRIB_0000.FILE_ID = CONTRIB_C001.FILE_ID AND
+        CONTRIB_0000.ROW_NUMBER = CONTRIB_C001.FATHER_ROW
+    )
+
+/* {"app": "dbt", "dbt_version": "1.10.11", "profile_name": "meu_projeto", "target_name": "dev", "node_id": "model.meu_projeto.fato_vendas"} */;
+[0m11:26:09.450876 [debug] [Thread-1 (]: Opening a new connection, currently in state init
+[0m11:26:12.395971 [debug] [Thread-1 (]: Snowflake adapter: Snowflake query id: 01bf1742-0002-ad18-0002-c7770009d312
+[0m11:26:12.396843 [debug] [Thread-1 (]: Snowflake adapter: Snowflake error: 002003 (02000): SQL compilation error:
+Schema 'ITAX.SILVER' does not exist or not authorized.
+[0m11:26:12.409119 [debug] [Thread-1 (]: Database Error in model fato_vendas (models\marts\fato_vendas.sql)
+  002003 (02000): SQL compilation error:
+  Schema 'ITAX.SILVER' does not exist or not authorized.
+  compiled code at target\run\meu_projeto\models\marts\fato_vendas.sql
+[0m11:26:12.422801 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'a8f77c98-098a-4907-b30a-02eb7eccd0d2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027909EA65D0>]}
+[0m11:26:12.423612 [error] [Thread-1 (]: 1 of 4 ERROR creating sql incremental model OURO.fato_vendas ................... [[31mERROR[0m in 3.05s]
+[0m11:26:12.424362 [debug] [Thread-1 (]: Finished running node model.meu_projeto.fato_vendas
+[0m11:26:12.424721 [debug] [Thread-1 (]: Began running node model.meu_projeto.my_first_dbt_model
+[0m11:26:12.425095 [info ] [Thread-1 (]: 2 of 4 START sql table model OURO.my_first_dbt_model ........................... [RUN]
+[0m11:26:12.425569 [debug] [Thread-4 (]: Marking all children of 'model.meu_projeto.fato_vendas' to be skipped because of status 'error'.  Reason: Database Error in model fato_vendas (models\marts\fato_vendas.sql)
+  002003 (02000): SQL compilation error:
+  Schema 'ITAX.SILVER' does not exist or not authorized.
+  compiled code at target\run\meu_projeto\models\marts\fato_vendas.sql.
+[0m11:26:12.426026 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.meu_projeto.fato_vendas, now model.meu_projeto.my_first_dbt_model)
+[0m11:26:12.427251 [debug] [Thread-1 (]: Began compiling node model.meu_projeto.my_first_dbt_model
+[0m11:26:12.431263 [debug] [Thread-1 (]: Writing injected SQL for node "model.meu_projeto.my_first_dbt_model"
+[0m11:26:12.437434 [debug] [Thread-1 (]: Began executing node model.meu_projeto.my_first_dbt_model
+[0m11:26:12.447627 [debug] [Thread-1 (]: Writing runtime sql for node "model.meu_projeto.my_first_dbt_model"
+[0m11:26:12.452110 [debug] [Thread-1 (]: Using snowflake connection "model.meu_projeto.my_first_dbt_model"
+[0m11:26:12.452509 [debug] [Thread-1 (]: On model.meu_projeto.my_first_dbt_model: create or replace transient table ITAX.OURO.my_first_dbt_model
+    
+    
+    
+    as (/*
+    Welcome to your first dbt model!
+    Did you know that you can also configure models directly within SQL files?
+    This will override configurations stated in dbt_project.yml
+
+    Try changing "table" to "view" below
+*/
+
+
+
+with source_data as (
+
+    select 1 as id
+    union all
+    select null as id
+
+)
+
+select *
+from source_data
+
+/*
+    Uncomment the line below to remove records with null `id` values
+*/
+
+-- where id is not null
+    )
+
+/* {"app": "dbt", "dbt_version": "1.10.11", "profile_name": "meu_projeto", "target_name": "dev", "node_id": "model.meu_projeto.my_first_dbt_model"} */;
+[0m11:26:13.748577 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 1.296 seconds
+[0m11:26:13.769819 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'a8f77c98-098a-4907-b30a-02eb7eccd0d2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027909F14EC0>]}
+[0m11:26:13.770421 [info ] [Thread-1 (]: 2 of 4 OK created sql table model OURO.my_first_dbt_model ...................... [[32mSUCCESS 1[0m in 1.34s]
+[0m11:26:13.773942 [debug] [Thread-1 (]: Finished running node model.meu_projeto.my_first_dbt_model
+[0m11:26:13.774386 [debug] [Thread-1 (]: Began running node model.meu_projeto.stg_vendas_clientes
+[0m11:26:13.774798 [info ] [Thread-1 (]: 3 of 4 START sql view model OURO.stg_vendas_clientes ........................... [RUN]
+[0m11:26:13.776159 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.meu_projeto.my_first_dbt_model, now model.meu_projeto.stg_vendas_clientes)
+[0m11:26:13.778821 [debug] [Thread-1 (]: Began compiling node model.meu_projeto.stg_vendas_clientes
+[0m11:26:13.781505 [debug] [Thread-1 (]: Writing injected SQL for node "model.meu_projeto.stg_vendas_clientes"
+[0m11:26:13.783598 [debug] [Thread-1 (]: Began executing node model.meu_projeto.stg_vendas_clientes
+[0m11:26:13.814903 [debug] [Thread-1 (]: Writing runtime sql for node "model.meu_projeto.stg_vendas_clientes"
+[0m11:26:13.817739 [debug] [Thread-1 (]: Using snowflake connection "model.meu_projeto.stg_vendas_clientes"
+[0m11:26:13.818643 [debug] [Thread-1 (]: On model.meu_projeto.stg_vendas_clientes: create or replace   view ITAX.OURO.stg_vendas_clientes
+  
+  
+  
+  
+  as (
+    
+
+SELECT
+    CONTRIB_0000.INFO_ROW:REG::string as REG,
+    CONTRIB_0000.INFO_ROW:CNPJ::string as CNPJ,
+    CONTRIB_C010.INFO_ROW:REG::string as REG,
+    CONTRIB_C010.INFO_ROW:CNPJ::string as CNPJ
+FROM
+    SILVER.CONTRIB_C010
+LEFT JOIN
+    SILVER.CONTRIB_C001 ON
+        CONTRIB_C001.FILE_ID = CONTRIB_C010.FILE_ID AND
+        CONTRIB_C001.ROW_NUMBER = CONTRIB_C010.FATHER_ROW
+LEFT JOIN
+    SILVER.CONTRIB_0000 ON
+        CONTRIB_0000.FILE_ID = CONTRIB_C001.FILE_ID AND
+        CONTRIB_0000.ROW_NUMBER = CONTRIB_C001.FATHER_ROW
+  )
+/* {"app": "dbt", "dbt_version": "1.10.11", "profile_name": "meu_projeto", "target_name": "dev", "node_id": "model.meu_projeto.stg_vendas_clientes"} */;
+[0m11:26:14.011689 [debug] [Thread-1 (]: Snowflake adapter: Snowflake query id: 01bf1742-0002-adb5-0002-c777000982a6
+[0m11:26:14.012504 [debug] [Thread-1 (]: Snowflake adapter: Snowflake error: 002003 (02000): SQL compilation error:
+Schema 'ITAX.SILVER' does not exist or not authorized.
+[0m11:26:14.022649 [debug] [Thread-1 (]: Database Error in model stg_vendas_clientes (models\marts\stg_vendas_clientes.sql)
+  002003 (02000): SQL compilation error:
+  Schema 'ITAX.SILVER' does not exist or not authorized.
+  compiled code at target\run\meu_projeto\models\marts\stg_vendas_clientes.sql
+[0m11:26:14.023147 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'a8f77c98-098a-4907-b30a-02eb7eccd0d2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002790A6B1A90>]}
+[0m11:26:14.023862 [error] [Thread-1 (]: 3 of 4 ERROR creating sql view model OURO.stg_vendas_clientes .................. [[31mERROR[0m in 0.25s]
+[0m11:26:14.024779 [debug] [Thread-1 (]: Finished running node model.meu_projeto.stg_vendas_clientes
+[0m11:26:14.025626 [debug] [Thread-1 (]: Began running node model.meu_projeto.my_second_dbt_model
+[0m11:26:14.026708 [debug] [Thread-4 (]: Marking all children of 'model.meu_projeto.stg_vendas_clientes' to be skipped because of status 'error'.  Reason: Database Error in model stg_vendas_clientes (models\marts\stg_vendas_clientes.sql)
+  002003 (02000): SQL compilation error:
+  Schema 'ITAX.SILVER' does not exist or not authorized.
+  compiled code at target\run\meu_projeto\models\marts\stg_vendas_clientes.sql.
+[0m11:26:14.027467 [info ] [Thread-1 (]: 4 of 4 START sql view model OURO.my_second_dbt_model ........................... [RUN]
+[0m11:26:14.028762 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.meu_projeto.stg_vendas_clientes, now model.meu_projeto.my_second_dbt_model)
+[0m11:26:14.029273 [debug] [Thread-1 (]: Began compiling node model.meu_projeto.my_second_dbt_model
+[0m11:26:14.032735 [debug] [Thread-1 (]: Writing injected SQL for node "model.meu_projeto.my_second_dbt_model"
+[0m11:26:14.036153 [debug] [Thread-1 (]: Began executing node model.meu_projeto.my_second_dbt_model
+[0m11:26:14.042638 [debug] [Thread-1 (]: Writing runtime sql for node "model.meu_projeto.my_second_dbt_model"
+[0m11:26:14.047792 [debug] [Thread-1 (]: Using snowflake connection "model.meu_projeto.my_second_dbt_model"
+[0m11:26:14.049013 [debug] [Thread-1 (]: On model.meu_projeto.my_second_dbt_model: create or replace   view ITAX.OURO.my_second_dbt_model
+  
+  
+  
+  
+  as (
+    -- Use the `ref` function to select from other models
+
+select *
+from ITAX.OURO.my_first_dbt_model
+where id = 1
+  )
+/* {"app": "dbt", "dbt_version": "1.10.11", "profile_name": "meu_projeto", "target_name": "dev", "node_id": "model.meu_projeto.my_second_dbt_model"} */;
+[0m11:26:14.365579 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.316 seconds
+[0m11:26:14.368941 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'a8f77c98-098a-4907-b30a-02eb7eccd0d2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002790A647750>]}
+[0m11:26:14.369624 [info ] [Thread-1 (]: 4 of 4 OK created sql view model OURO.my_second_dbt_model ...................... [[32mSUCCESS 1[0m in 0.34s]
+[0m11:26:14.370282 [debug] [Thread-1 (]: Finished running node model.meu_projeto.my_second_dbt_model
+[0m11:26:14.371452 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m11:26:14.371776 [debug] [MainThread]: Connection 'list_ITAX' was left open.
+[0m11:26:14.372036 [debug] [MainThread]: On list_ITAX: Close
+[0m11:26:14.652721 [debug] [MainThread]: Connection 'list_ITAX_OURO' was left open.
+[0m11:26:14.653155 [debug] [MainThread]: On list_ITAX_OURO: Close
+[0m11:26:14.952654 [debug] [MainThread]: Connection 'model.meu_projeto.my_second_dbt_model' was left open.
+[0m11:26:14.953241 [debug] [MainThread]: On model.meu_projeto.my_second_dbt_model: Close
+[0m11:26:15.264066 [info ] [MainThread]: 
+[0m11:26:15.264813 [info ] [MainThread]: Finished running 1 incremental model, 1 table model, 2 view models in 0 hours 0 minutes and 12.70 seconds (12.70s).
+[0m11:26:15.265849 [debug] [MainThread]: Command end result
+[0m11:26:15.286978 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\gbrietzig\OneDrive - MARTINELLI ADVOGADOS\Área de Trabalho\ambiente\dbt\meu_projeto\target\manifest.json
+[0m11:26:15.292118 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\gbrietzig\OneDrive - MARTINELLI ADVOGADOS\Área de Trabalho\ambiente\dbt\meu_projeto\target\semantic_manifest.json
+[0m11:26:15.302164 [debug] [MainThread]: Wrote artifact RunExecutionResult to C:\Users\gbrietzig\OneDrive - MARTINELLI ADVOGADOS\Área de Trabalho\ambiente\dbt\meu_projeto\target\run_results.json
+[0m11:26:15.302530 [info ] [MainThread]: 
+[0m11:26:15.303165 [info ] [MainThread]: [31mCompleted with 2 errors, 0 partial successes, and 0 warnings:[0m
+[0m11:26:15.303923 [info ] [MainThread]: 
+[0m11:26:15.304681 [error] [MainThread]: [31mFailure in model fato_vendas (models\marts\fato_vendas.sql)[0m
+[0m11:26:15.305173 [error] [MainThread]:   Database Error in model fato_vendas (models\marts\fato_vendas.sql)
+  002003 (02000): SQL compilation error:
+  Schema 'ITAX.SILVER' does not exist or not authorized.
+  compiled code at target\run\meu_projeto\models\marts\fato_vendas.sql
+[0m11:26:15.305692 [info ] [MainThread]: 
+[0m11:26:15.306262 [info ] [MainThread]:   compiled code at target\compiled\meu_projeto\models\marts\fato_vendas.sql
+[0m11:26:15.307095 [info ] [MainThread]: 
+[0m11:26:15.308683 [error] [MainThread]: [31mFailure in model stg_vendas_clientes (models\marts\stg_vendas_clientes.sql)[0m
+[0m11:26:15.311445 [error] [MainThread]:   Database Error in model stg_vendas_clientes (models\marts\stg_vendas_clientes.sql)
+  002003 (02000): SQL compilation error:
+  Schema 'ITAX.SILVER' does not exist or not authorized.
+  compiled code at target\run\meu_projeto\models\marts\stg_vendas_clientes.sql
+[0m11:26:15.312565 [info ] [MainThread]: 
+[0m11:26:15.313533 [info ] [MainThread]:   compiled code at target\compiled\meu_projeto\models\marts\stg_vendas_clientes.sql
+[0m11:26:15.314239 [info ] [MainThread]: 
+[0m11:26:15.314772 [info ] [MainThread]: Done. PASS=2 WARN=0 ERROR=2 SKIP=0 NO-OP=0 TOTAL=4
+[0m11:26:15.316165 [debug] [MainThread]: Command `dbt run` failed at 11:26:15.316004 after 16.87 seconds
+[0m11:26:15.316612 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002796EABC7C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027968110C20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027908FFA090>]}
+[0m11:26:15.317066 [debug] [MainThread]: Flushing usage events
+[0m11:26:16.318383 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m11:26:38.180702 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001457D060440>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001457A95DD10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001457DEB3D90>]}
+
+
+============================== 11:26:38.185907 | 2fc76e52-56b3-40b6-aa49-bc1714e59128 ==============================
+[0m11:26:38.185907 [info ] [MainThread]: Running with dbt=1.10.11
+[0m11:26:38.186563 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'use_experimental_parser': 'False', 'cache_selected_only': 'False', 'warn_error': 'None', 'empty': 'False', 'debug': 'False', 'static_parser': 'True', 'log_cache_events': 'False', 'profiles_dir': 'C:\\Users\\gbrietzig\\OneDrive - MARTINELLI ADVOGADOS\\Área de Trabalho\\ambiente\\dbt\\meu_projeto', 'log_format': 'default', 'quiet': 'False', 'use_colors': 'True', 'partial_parse': 'True', 'version_check': 'True', 'log_path': 'C:\\Users\\gbrietzig\\OneDrive - MARTINELLI ADVOGADOS\\Área de Trabalho\\ambiente\\dbt\\meu_projeto\\logs', 'introspect': 'True', 'invocation_command': 'dbt run', 'fail_fast': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'send_anonymous_usage_stats': 'True', 'indirect_selection': 'eager', 'target_path': 'None', 'write_json': 'True'}
+[0m11:26:39.574319 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '2fc76e52-56b3-40b6-aa49-bc1714e59128', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001457D210FC0>]}
+[0m11:26:39.624538 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '2fc76e52-56b3-40b6-aa49-bc1714e59128', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001451835DAE0>]}
+[0m11:26:39.627729 [info ] [MainThread]: Registered adapter: snowflake=1.10.2
+[0m11:26:40.492209 [debug] [MainThread]: checksum: 5335e1629744fab92fa7809c625edbb36f0d7063a879d6215c971798f27e66f9, vars: {}, profile: , target: , version: 1.10.11
+[0m11:26:40.761218 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 2 files changed.
+[0m11:26:40.761845 [debug] [MainThread]: Partial parsing: updated file: meu_projeto://models\marts\fato_vendas.sql
+[0m11:26:40.762244 [debug] [MainThread]: Partial parsing: updated file: meu_projeto://models\marts\stg_vendas_clientes.sql
+[0m11:26:41.103013 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '2fc76e52-56b3-40b6-aa49-bc1714e59128', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000014518AF4950>]}
+[0m11:26:41.157669 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\gbrietzig\OneDrive - MARTINELLI ADVOGADOS\Área de Trabalho\ambiente\dbt\meu_projeto\target\manifest.json
+[0m11:26:41.161921 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\gbrietzig\OneDrive - MARTINELLI ADVOGADOS\Área de Trabalho\ambiente\dbt\meu_projeto\target\semantic_manifest.json
+[0m11:26:41.216848 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '2fc76e52-56b3-40b6-aa49-bc1714e59128', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000145187D7980>]}
+[0m11:26:41.217355 [info ] [MainThread]: Found 4 models, 10 data tests, 479 macros
+[0m11:26:41.217859 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '2fc76e52-56b3-40b6-aa49-bc1714e59128', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000014518C24BB0>]}
+[0m11:26:41.219633 [info ] [MainThread]: 
+[0m11:26:41.220244 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m11:26:41.220604 [info ] [MainThread]: 
+[0m11:26:41.221157 [debug] [MainThread]: Acquiring new snowflake connection 'master'
+[0m11:26:41.225193 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_ITAX'
+[0m11:26:41.420140 [debug] [ThreadPool]: Using snowflake connection "list_ITAX"
+[0m11:26:41.420511 [debug] [ThreadPool]: On list_ITAX: show terse schemas in database ITAX
+    limit 10000
+/* {"app": "dbt", "dbt_version": "1.10.11", "profile_name": "meu_projeto", "target_name": "dev", "connection_name": "list_ITAX"} */
+[0m11:26:41.420784 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m11:26:44.677375 [debug] [ThreadPool]: SQL status: SUCCESS 5 in 3.256 seconds
+[0m11:26:44.680801 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_ITAX_OURO'
+[0m11:26:44.701383 [debug] [ThreadPool]: Using snowflake connection "list_ITAX_OURO"
+[0m11:26:44.701861 [debug] [ThreadPool]: On list_ITAX_OURO: show objects in ITAX.OURO
+    limit 10000
+    
+
+/* {"app": "dbt", "dbt_version": "1.10.11", "profile_name": "meu_projeto", "target_name": "dev", "connection_name": "list_ITAX_OURO"} */;
+[0m11:26:44.702197 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m11:26:47.653323 [debug] [ThreadPool]: SQL status: SUCCESS 2 in 2.951 seconds
+[0m11:26:47.655599 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '2fc76e52-56b3-40b6-aa49-bc1714e59128', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000145193147A0>]}
+[0m11:26:47.662267 [debug] [Thread-1 (]: Began running node model.meu_projeto.fato_vendas
+[0m11:26:47.662814 [info ] [Thread-1 (]: 1 of 4 START sql incremental model OURO.fato_vendas ............................ [RUN]
+[0m11:26:47.663408 [debug] [Thread-1 (]: Acquiring new snowflake connection 'model.meu_projeto.fato_vendas'
+[0m11:26:47.663731 [debug] [Thread-1 (]: Began compiling node model.meu_projeto.fato_vendas
+[0m11:26:47.670151 [debug] [Thread-1 (]: Writing injected SQL for node "model.meu_projeto.fato_vendas"
+[0m11:26:47.672140 [debug] [Thread-1 (]: Began executing node model.meu_projeto.fato_vendas
+[0m11:26:47.733691 [debug] [Thread-1 (]: Writing runtime sql for node "model.meu_projeto.fato_vendas"
+[0m11:26:47.735406 [debug] [Thread-1 (]: Using snowflake connection "model.meu_projeto.fato_vendas"
+[0m11:26:47.735803 [debug] [Thread-1 (]: On model.meu_projeto.fato_vendas: create or replace transient table ITAX.OURO.fato_vendas
+    
+    
+    
+    as (
+
+SELECT
+    CONTRIB_0000.INFO_ROW:REG::string as REG,
+    CONTRIB_0000.INFO_ROW:CNPJ::string as CNPJ,
+    CONTRIB_C010.INFO_ROW:REG::string as REG,
+    CONTRIB_C010.INFO_ROW:CNPJ::string as CNPJ
+FROM
+    PRATA.CONTRIB_C010
+LEFT JOIN
+    PRATA.CONTRIB_C001 ON
+        CONTRIB_C001.FILE_ID = CONTRIB_C010.FILE_ID AND
+        CONTRIB_C001.ROW_NUMBER = CONTRIB_C010.FATHER_ROW
+LEFT JOIN
+    PRATA.CONTRIB_0000 ON
+        CONTRIB_0000.FILE_ID = CONTRIB_C001.FILE_ID AND
+        CONTRIB_0000.ROW_NUMBER = CONTRIB_C001.FATHER_ROW
+    )
+
+/* {"app": "dbt", "dbt_version": "1.10.11", "profile_name": "meu_projeto", "target_name": "dev", "node_id": "model.meu_projeto.fato_vendas"} */;
+[0m11:26:47.736142 [debug] [Thread-1 (]: Opening a new connection, currently in state init
+[0m11:26:50.744365 [debug] [Thread-1 (]: Snowflake adapter: Snowflake query id: 01bf1742-0002-ad18-0002-c7770009d31a
+[0m11:26:50.744804 [debug] [Thread-1 (]: Snowflake adapter: Snowflake error: 002025 (42S21): SQL compilation error:
+duplicate column name 'REG'
+[0m11:26:50.753527 [debug] [Thread-1 (]: Database Error in model fato_vendas (models\marts\fato_vendas.sql)
+  002025 (42S21): SQL compilation error:
+  duplicate column name 'REG'
+  compiled code at target\run\meu_projeto\models\marts\fato_vendas.sql
+[0m11:26:50.756603 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '2fc76e52-56b3-40b6-aa49-bc1714e59128', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000145192947D0>]}
+[0m11:26:50.757450 [error] [Thread-1 (]: 1 of 4 ERROR creating sql incremental model OURO.fato_vendas ................... [[31mERROR[0m in 3.09s]
+[0m11:26:50.758438 [debug] [Thread-1 (]: Finished running node model.meu_projeto.fato_vendas
+[0m11:26:50.758792 [debug] [Thread-1 (]: Began running node model.meu_projeto.my_first_dbt_model
+[0m11:26:50.759180 [info ] [Thread-1 (]: 2 of 4 START sql table model OURO.my_first_dbt_model ........................... [RUN]
+[0m11:26:50.759971 [debug] [Thread-4 (]: Marking all children of 'model.meu_projeto.fato_vendas' to be skipped because of status 'error'.  Reason: Database Error in model fato_vendas (models\marts\fato_vendas.sql)
+  002025 (42S21): SQL compilation error:
+  duplicate column name 'REG'
+  compiled code at target\run\meu_projeto\models\marts\fato_vendas.sql.
+[0m11:26:50.760440 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.meu_projeto.fato_vendas, now model.meu_projeto.my_first_dbt_model)
+[0m11:26:50.762402 [debug] [Thread-1 (]: Began compiling node model.meu_projeto.my_first_dbt_model
+[0m11:26:50.766763 [debug] [Thread-1 (]: Writing injected SQL for node "model.meu_projeto.my_first_dbt_model"
+[0m11:26:50.768895 [debug] [Thread-1 (]: Began executing node model.meu_projeto.my_first_dbt_model
+[0m11:26:50.782471 [debug] [Thread-1 (]: Writing runtime sql for node "model.meu_projeto.my_first_dbt_model"
+[0m11:26:50.784345 [debug] [Thread-1 (]: Using snowflake connection "model.meu_projeto.my_first_dbt_model"
+[0m11:26:50.784740 [debug] [Thread-1 (]: On model.meu_projeto.my_first_dbt_model: create or replace transient table ITAX.OURO.my_first_dbt_model
+    
+    
+    
+    as (/*
+    Welcome to your first dbt model!
+    Did you know that you can also configure models directly within SQL files?
+    This will override configurations stated in dbt_project.yml
+
+    Try changing "table" to "view" below
+*/
+
+
+
+with source_data as (
+
+    select 1 as id
+    union all
+    select null as id
+
+)
+
+select *
+from source_data
+
+/*
+    Uncomment the line below to remove records with null `id` values
+*/
+
+-- where id is not null
+    )
+
+/* {"app": "dbt", "dbt_version": "1.10.11", "profile_name": "meu_projeto", "target_name": "dev", "node_id": "model.meu_projeto.my_first_dbt_model"} */;
+[0m11:26:51.799737 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 1.014 seconds
+[0m11:26:51.824569 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '2fc76e52-56b3-40b6-aa49-bc1714e59128', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001451931CF70>]}
+[0m11:26:51.825105 [info ] [Thread-1 (]: 2 of 4 OK created sql table model OURO.my_first_dbt_model ...................... [[32mSUCCESS 1[0m in 1.06s]
+[0m11:26:51.825840 [debug] [Thread-1 (]: Finished running node model.meu_projeto.my_first_dbt_model
+[0m11:26:51.826170 [debug] [Thread-1 (]: Began running node model.meu_projeto.stg_vendas_clientes
+[0m11:26:51.826551 [info ] [Thread-1 (]: 3 of 4 START sql view model OURO.stg_vendas_clientes ........................... [RUN]
+[0m11:26:51.827217 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.meu_projeto.my_first_dbt_model, now model.meu_projeto.stg_vendas_clientes)
+[0m11:26:51.827565 [debug] [Thread-1 (]: Began compiling node model.meu_projeto.stg_vendas_clientes
+[0m11:26:51.829476 [debug] [Thread-1 (]: Writing injected SQL for node "model.meu_projeto.stg_vendas_clientes"
+[0m11:26:51.830814 [debug] [Thread-1 (]: Began executing node model.meu_projeto.stg_vendas_clientes
+[0m11:26:51.850507 [debug] [Thread-1 (]: Writing runtime sql for node "model.meu_projeto.stg_vendas_clientes"
+[0m11:26:51.852244 [debug] [Thread-1 (]: Using snowflake connection "model.meu_projeto.stg_vendas_clientes"
+[0m11:26:51.852629 [debug] [Thread-1 (]: On model.meu_projeto.stg_vendas_clientes: create or replace   view ITAX.OURO.stg_vendas_clientes
+  
+  
+  
+  
+  as (
+    
+
+SELECT
+    CONTRIB_0000.INFO_ROW:REG::string as REG,
+    CONTRIB_0000.INFO_ROW:CNPJ::string as CNPJ,
+    CONTRIB_C010.INFO_ROW:REG::string as REG,
+    CONTRIB_C010.INFO_ROW:CNPJ::string as CNPJ
+FROM
+    PRATA.CONTRIB_C010
+LEFT JOIN
+    PRATA.CONTRIB_C001 ON
+        CONTRIB_C001.FILE_ID = CONTRIB_C010.FILE_ID AND
+        CONTRIB_C001.ROW_NUMBER = CONTRIB_C010.FATHER_ROW
+LEFT JOIN
+    PRATA.CONTRIB_0000 ON
+        CONTRIB_0000.FILE_ID = CONTRIB_C001.FILE_ID AND
+        CONTRIB_0000.ROW_NUMBER = CONTRIB_C001.FATHER_ROW
+  )
+/* {"app": "dbt", "dbt_version": "1.10.11", "profile_name": "meu_projeto", "target_name": "dev", "node_id": "model.meu_projeto.stg_vendas_clientes"} */;
+[0m11:26:52.182974 [debug] [Thread-1 (]: Snowflake adapter: Snowflake query id: 01bf1742-0002-ad53-0002-c777000992fe
+[0m11:26:52.184015 [debug] [Thread-1 (]: Snowflake adapter: Snowflake error: 002025 (42S21): SQL compilation error:
+duplicate column name 'REG'
+[0m11:26:52.199480 [debug] [Thread-1 (]: Database Error in model stg_vendas_clientes (models\marts\stg_vendas_clientes.sql)
+  002025 (42S21): SQL compilation error:
+  duplicate column name 'REG'
+  compiled code at target\run\meu_projeto\models\marts\stg_vendas_clientes.sql
+[0m11:26:52.200091 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '2fc76e52-56b3-40b6-aa49-bc1714e59128', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000014519AB87D0>]}
+[0m11:26:52.200721 [error] [Thread-1 (]: 3 of 4 ERROR creating sql view model OURO.stg_vendas_clientes .................. [[31mERROR[0m in 0.37s]
+[0m11:26:52.201962 [debug] [Thread-1 (]: Finished running node model.meu_projeto.stg_vendas_clientes
+[0m11:26:52.202322 [debug] [Thread-1 (]: Began running node model.meu_projeto.my_second_dbt_model
+[0m11:26:52.203206 [debug] [Thread-4 (]: Marking all children of 'model.meu_projeto.stg_vendas_clientes' to be skipped because of status 'error'.  Reason: Database Error in model stg_vendas_clientes (models\marts\stg_vendas_clientes.sql)
+  002025 (42S21): SQL compilation error:
+  duplicate column name 'REG'
+  compiled code at target\run\meu_projeto\models\marts\stg_vendas_clientes.sql.
+[0m11:26:52.202702 [info ] [Thread-1 (]: 4 of 4 START sql view model OURO.my_second_dbt_model ........................... [RUN]
+[0m11:26:52.204111 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.meu_projeto.stg_vendas_clientes, now model.meu_projeto.my_second_dbt_model)
+[0m11:26:52.204405 [debug] [Thread-1 (]: Began compiling node model.meu_projeto.my_second_dbt_model
+[0m11:26:52.206459 [debug] [Thread-1 (]: Writing injected SQL for node "model.meu_projeto.my_second_dbt_model"
+[0m11:26:52.212714 [debug] [Thread-1 (]: Began executing node model.meu_projeto.my_second_dbt_model
+[0m11:26:52.215560 [debug] [Thread-1 (]: Writing runtime sql for node "model.meu_projeto.my_second_dbt_model"
+[0m11:26:52.219068 [debug] [Thread-1 (]: Using snowflake connection "model.meu_projeto.my_second_dbt_model"
+[0m11:26:52.219536 [debug] [Thread-1 (]: On model.meu_projeto.my_second_dbt_model: create or replace   view ITAX.OURO.my_second_dbt_model
+  
+  
+  
+  
+  as (
+    -- Use the `ref` function to select from other models
+
+select *
+from ITAX.OURO.my_first_dbt_model
+where id = 1
+  )
+/* {"app": "dbt", "dbt_version": "1.10.11", "profile_name": "meu_projeto", "target_name": "dev", "node_id": "model.meu_projeto.my_second_dbt_model"} */;
+[0m11:26:52.528406 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.308 seconds
+[0m11:26:52.531429 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '2fc76e52-56b3-40b6-aa49-bc1714e59128', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000145192D9850>]}
+[0m11:26:52.532436 [info ] [Thread-1 (]: 4 of 4 OK created sql view model OURO.my_second_dbt_model ...................... [[32mSUCCESS 1[0m in 0.33s]
+[0m11:26:52.533380 [debug] [Thread-1 (]: Finished running node model.meu_projeto.my_second_dbt_model
+[0m11:26:52.534949 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m11:26:52.535384 [debug] [MainThread]: Connection 'list_ITAX' was left open.
+[0m11:26:52.535791 [debug] [MainThread]: On list_ITAX: Close
+[0m11:26:52.856196 [debug] [MainThread]: Connection 'list_ITAX_OURO' was left open.
+[0m11:26:52.856977 [debug] [MainThread]: On list_ITAX_OURO: Close
+[0m11:26:53.167283 [debug] [MainThread]: Connection 'model.meu_projeto.my_second_dbt_model' was left open.
+[0m11:26:53.167673 [debug] [MainThread]: On model.meu_projeto.my_second_dbt_model: Close
+[0m11:26:53.456657 [info ] [MainThread]: 
+[0m11:26:53.457697 [info ] [MainThread]: Finished running 1 incremental model, 1 table model, 2 view models in 0 hours 0 minutes and 12.24 seconds (12.24s).
+[0m11:26:53.459172 [debug] [MainThread]: Command end result
+[0m11:26:53.493323 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\gbrietzig\OneDrive - MARTINELLI ADVOGADOS\Área de Trabalho\ambiente\dbt\meu_projeto\target\manifest.json
+[0m11:26:53.506812 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\gbrietzig\OneDrive - MARTINELLI ADVOGADOS\Área de Trabalho\ambiente\dbt\meu_projeto\target\semantic_manifest.json
+[0m11:26:53.515388 [debug] [MainThread]: Wrote artifact RunExecutionResult to C:\Users\gbrietzig\OneDrive - MARTINELLI ADVOGADOS\Área de Trabalho\ambiente\dbt\meu_projeto\target\run_results.json
+[0m11:26:53.515768 [info ] [MainThread]: 
+[0m11:26:53.516308 [info ] [MainThread]: [31mCompleted with 2 errors, 0 partial successes, and 0 warnings:[0m
+[0m11:26:53.516919 [info ] [MainThread]: 
+[0m11:26:53.517562 [error] [MainThread]: [31mFailure in model fato_vendas (models\marts\fato_vendas.sql)[0m
+[0m11:26:53.518272 [error] [MainThread]:   Database Error in model fato_vendas (models\marts\fato_vendas.sql)
+  002025 (42S21): SQL compilation error:
+  duplicate column name 'REG'
+  compiled code at target\run\meu_projeto\models\marts\fato_vendas.sql
+[0m11:26:53.518762 [info ] [MainThread]: 
+[0m11:26:53.519236 [info ] [MainThread]:   compiled code at target\compiled\meu_projeto\models\marts\fato_vendas.sql
+[0m11:26:53.519703 [info ] [MainThread]: 
+[0m11:26:53.520200 [error] [MainThread]: [31mFailure in model stg_vendas_clientes (models\marts\stg_vendas_clientes.sql)[0m
+[0m11:26:53.520788 [error] [MainThread]:   Database Error in model stg_vendas_clientes (models\marts\stg_vendas_clientes.sql)
+  002025 (42S21): SQL compilation error:
+  duplicate column name 'REG'
+  compiled code at target\run\meu_projeto\models\marts\stg_vendas_clientes.sql
+[0m11:26:53.521438 [info ] [MainThread]: 
+[0m11:26:53.522146 [info ] [MainThread]:   compiled code at target\compiled\meu_projeto\models\marts\stg_vendas_clientes.sql
+[0m11:26:53.524632 [info ] [MainThread]: 
+[0m11:26:53.527505 [info ] [MainThread]: Done. PASS=2 WARN=0 ERROR=2 SKIP=0 NO-OP=0 TOTAL=4
+[0m11:26:53.531345 [debug] [MainThread]: Command `dbt run` failed at 11:26:53.531021 after 15.51 seconds
+[0m11:26:53.532009 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001457DF1C7C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000145775C0C20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001451985BF50>]}
+[0m11:26:53.532466 [debug] [MainThread]: Flushing usage events
+[0m11:26:54.501988 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m11:28:33.103950 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000015AD2CF0440>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000015AD05F9D10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000015AD3B47D90>]}
+
+
+============================== 11:28:33.113619 | 51282524-c4d7-4149-a6d8-c448cf73b6f5 ==============================
+[0m11:28:33.113619 [info ] [MainThread]: Running with dbt=1.10.11
+[0m11:28:33.115141 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'target_path': 'None', 'cache_selected_only': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\gbrietzig\\OneDrive - MARTINELLI ADVOGADOS\\Área de Trabalho\\ambiente\\dbt\\meu_projeto', 'debug': 'False', 'static_parser': 'True', 'log_cache_events': 'False', 'empty': 'False', 'quiet': 'False', 'log_format': 'default', 'use_colors': 'True', 'partial_parse': 'True', 'version_check': 'True', 'log_path': 'C:\\Users\\gbrietzig\\OneDrive - MARTINELLI ADVOGADOS\\Área de Trabalho\\ambiente\\dbt\\meu_projeto\\logs', 'introspect': 'True', 'no_print': 'None', 'fail_fast': 'False', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'invocation_command': 'dbt run', 'send_anonymous_usage_stats': 'True', 'indirect_selection': 'eager', 'write_json': 'True', 'use_experimental_parser': 'False'}
+[0m11:28:34.687067 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '51282524-c4d7-4149-a6d8-c448cf73b6f5', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000015AD2EA0FC0>]}
+[0m11:28:34.735970 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '51282524-c4d7-4149-a6d8-c448cf73b6f5', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000015AEDEDDAE0>]}
+[0m11:28:34.737559 [info ] [MainThread]: Registered adapter: snowflake=1.10.2
+[0m11:28:35.627842 [debug] [MainThread]: checksum: 5335e1629744fab92fa7809c625edbb36f0d7063a879d6215c971798f27e66f9, vars: {}, profile: , target: , version: 1.10.11
+[0m11:28:35.894488 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 2 files changed.
+[0m11:28:35.895104 [debug] [MainThread]: Partial parsing: updated file: meu_projeto://models\marts\stg_vendas_clientes.sql
+[0m11:28:35.895506 [debug] [MainThread]: Partial parsing: updated file: meu_projeto://models\marts\fato_vendas.sql
+[0m11:28:36.208881 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '51282524-c4d7-4149-a6d8-c448cf73b6f5', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000015AEE674950>]}
+[0m11:28:36.263619 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\gbrietzig\OneDrive - MARTINELLI ADVOGADOS\Área de Trabalho\ambiente\dbt\meu_projeto\target\manifest.json
+[0m11:28:36.266823 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\gbrietzig\OneDrive - MARTINELLI ADVOGADOS\Área de Trabalho\ambiente\dbt\meu_projeto\target\semantic_manifest.json
+[0m11:28:36.301268 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '51282524-c4d7-4149-a6d8-c448cf73b6f5', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000015AEE357980>]}
+[0m11:28:36.301750 [info ] [MainThread]: Found 4 models, 10 data tests, 479 macros
+[0m11:28:36.302303 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '51282524-c4d7-4149-a6d8-c448cf73b6f5', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000015AEE7A4BB0>]}
+[0m11:28:36.304672 [info ] [MainThread]: 
+[0m11:28:36.305303 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m11:28:36.305948 [info ] [MainThread]: 
+[0m11:28:36.306449 [debug] [MainThread]: Acquiring new snowflake connection 'master'
+[0m11:28:36.311807 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_ITAX'
+[0m11:28:36.514516 [debug] [ThreadPool]: Using snowflake connection "list_ITAX"
+[0m11:28:36.514891 [debug] [ThreadPool]: On list_ITAX: show terse schemas in database ITAX
+    limit 10000
+/* {"app": "dbt", "dbt_version": "1.10.11", "profile_name": "meu_projeto", "target_name": "dev", "connection_name": "list_ITAX"} */
+[0m11:28:36.515148 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m11:28:39.991717 [debug] [ThreadPool]: SQL status: SUCCESS 5 in 3.476 seconds
+[0m11:28:39.997352 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_ITAX_OURO'
+[0m11:28:40.014828 [debug] [ThreadPool]: Using snowflake connection "list_ITAX_OURO"
+[0m11:28:40.015213 [debug] [ThreadPool]: On list_ITAX_OURO: show objects in ITAX.OURO
+    limit 10000
+    
+
+/* {"app": "dbt", "dbt_version": "1.10.11", "profile_name": "meu_projeto", "target_name": "dev", "connection_name": "list_ITAX_OURO"} */;
+[0m11:28:40.015495 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m11:28:43.019469 [debug] [ThreadPool]: SQL status: SUCCESS 2 in 3.004 seconds
+[0m11:28:43.024923 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '51282524-c4d7-4149-a6d8-c448cf73b6f5', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000015AEEE247A0>]}
+[0m11:28:43.032779 [debug] [Thread-1 (]: Began running node model.meu_projeto.fato_vendas
+[0m11:28:43.033611 [info ] [Thread-1 (]: 1 of 4 START sql incremental model OURO.fato_vendas ............................ [RUN]
+[0m11:28:43.034875 [debug] [Thread-1 (]: Acquiring new snowflake connection 'model.meu_projeto.fato_vendas'
+[0m11:28:43.035464 [debug] [Thread-1 (]: Began compiling node model.meu_projeto.fato_vendas
+[0m11:28:43.042579 [debug] [Thread-1 (]: Writing injected SQL for node "model.meu_projeto.fato_vendas"
+[0m11:28:43.044018 [debug] [Thread-1 (]: Began executing node model.meu_projeto.fato_vendas
+[0m11:28:43.101386 [debug] [Thread-1 (]: Writing runtime sql for node "model.meu_projeto.fato_vendas"
+[0m11:28:43.104044 [debug] [Thread-1 (]: Using snowflake connection "model.meu_projeto.fato_vendas"
+[0m11:28:43.104950 [debug] [Thread-1 (]: On model.meu_projeto.fato_vendas: create or replace transient table ITAX.OURO.fato_vendas
+    
+    
+    
+    as (
+
+SELECT
+    CONTRIB_0000.INFO_ROW:REG::string as REG1,
+    CONTRIB_0000.INFO_ROW:CNPJ::string as CNPJ1,
+    CONTRIB_C010.INFO_ROW:REG::string as REG2,
+    CONTRIB_C010.INFO_ROW:CNPJ::string as CNPJ2
+FROM
+    PRATA.CONTRIB_C010
+LEFT JOIN
+    PRATA.CONTRIB_C001 ON
+        CONTRIB_C001.FILE_ID = CONTRIB_C010.FILE_ID AND
+        CONTRIB_C001.ROW_NUMBER = CONTRIB_C010.FATHER_ROW
+LEFT JOIN
+    PRATA.CONTRIB_0000 ON
+        CONTRIB_0000.FILE_ID = CONTRIB_C001.FILE_ID AND
+        CONTRIB_0000.ROW_NUMBER = CONTRIB_C001.FATHER_ROW
+    )
+
+/* {"app": "dbt", "dbt_version": "1.10.11", "profile_name": "meu_projeto", "target_name": "dev", "node_id": "model.meu_projeto.fato_vendas"} */;
+[0m11:28:43.105733 [debug] [Thread-1 (]: Opening a new connection, currently in state init
+[0m11:28:49.124771 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 6.019 seconds
+[0m11:28:49.138807 [debug] [Thread-1 (]: Applying DROP to: ITAX.OURO.fato_vendas__dbt_tmp
+[0m11:28:49.144724 [debug] [Thread-1 (]: Using snowflake connection "model.meu_projeto.fato_vendas"
+[0m11:28:49.145049 [debug] [Thread-1 (]: On model.meu_projeto.fato_vendas: drop view if exists ITAX.OURO.fato_vendas__dbt_tmp cascade
+/* {"app": "dbt", "dbt_version": "1.10.11", "profile_name": "meu_projeto", "target_name": "dev", "node_id": "model.meu_projeto.fato_vendas"} */
+[0m11:28:49.343770 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.198 seconds
+[0m11:28:49.369024 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '51282524-c4d7-4149-a6d8-c448cf73b6f5', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000015AEEDA5C10>]}
+[0m11:28:49.369663 [info ] [Thread-1 (]: 1 of 4 OK created sql incremental model OURO.fato_vendas ....................... [[32mSUCCESS 1[0m in 6.33s]
+[0m11:28:49.370410 [debug] [Thread-1 (]: Finished running node model.meu_projeto.fato_vendas
+[0m11:28:49.370772 [debug] [Thread-1 (]: Began running node model.meu_projeto.my_first_dbt_model
+[0m11:28:49.371176 [info ] [Thread-1 (]: 2 of 4 START sql table model OURO.my_first_dbt_model ........................... [RUN]
+[0m11:28:49.371865 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.meu_projeto.fato_vendas, now model.meu_projeto.my_first_dbt_model)
+[0m11:28:49.372164 [debug] [Thread-1 (]: Began compiling node model.meu_projeto.my_first_dbt_model
+[0m11:28:49.374019 [debug] [Thread-1 (]: Writing injected SQL for node "model.meu_projeto.my_first_dbt_model"
+[0m11:28:49.375230 [debug] [Thread-1 (]: Began executing node model.meu_projeto.my_first_dbt_model
+[0m11:28:49.382768 [debug] [Thread-1 (]: Writing runtime sql for node "model.meu_projeto.my_first_dbt_model"
+[0m11:28:49.386892 [debug] [Thread-1 (]: Using snowflake connection "model.meu_projeto.my_first_dbt_model"
+[0m11:28:49.387367 [debug] [Thread-1 (]: On model.meu_projeto.my_first_dbt_model: create or replace transient table ITAX.OURO.my_first_dbt_model
+    
+    
+    
+    as (/*
+    Welcome to your first dbt model!
+    Did you know that you can also configure models directly within SQL files?
+    This will override configurations stated in dbt_project.yml
+
+    Try changing "table" to "view" below
+*/
+
+
+
+with source_data as (
+
+    select 1 as id
+    union all
+    select null as id
+
+)
+
+select *
+from source_data
+
+/*
+    Uncomment the line below to remove records with null `id` values
+*/
+
+-- where id is not null
+    )
+
+/* {"app": "dbt", "dbt_version": "1.10.11", "profile_name": "meu_projeto", "target_name": "dev", "node_id": "model.meu_projeto.my_first_dbt_model"} */;
+[0m11:28:50.179957 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.792 seconds
+[0m11:28:50.186076 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '51282524-c4d7-4149-a6d8-c448cf73b6f5', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000015AEEE2CEC0>]}
+[0m11:28:50.186598 [info ] [Thread-1 (]: 2 of 4 OK created sql table model OURO.my_first_dbt_model ...................... [[32mSUCCESS 1[0m in 0.81s]
+[0m11:28:50.187772 [debug] [Thread-1 (]: Finished running node model.meu_projeto.my_first_dbt_model
+[0m11:28:50.188683 [debug] [Thread-1 (]: Began running node model.meu_projeto.stg_vendas_clientes
+[0m11:28:50.189581 [info ] [Thread-1 (]: 3 of 4 START sql view model OURO.stg_vendas_clientes ........................... [RUN]
+[0m11:28:50.191086 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.meu_projeto.my_first_dbt_model, now model.meu_projeto.stg_vendas_clientes)
+[0m11:28:50.191798 [debug] [Thread-1 (]: Began compiling node model.meu_projeto.stg_vendas_clientes
+[0m11:28:50.196083 [debug] [Thread-1 (]: Writing injected SQL for node "model.meu_projeto.stg_vendas_clientes"
+[0m11:28:50.199029 [debug] [Thread-1 (]: Began executing node model.meu_projeto.stg_vendas_clientes
+[0m11:28:50.234774 [debug] [Thread-1 (]: Writing runtime sql for node "model.meu_projeto.stg_vendas_clientes"
+[0m11:28:50.239119 [debug] [Thread-1 (]: Using snowflake connection "model.meu_projeto.stg_vendas_clientes"
+[0m11:28:50.239665 [debug] [Thread-1 (]: On model.meu_projeto.stg_vendas_clientes: create or replace   view ITAX.OURO.stg_vendas_clientes
+  
+  
+  
+  
+  as (
+    
+
+SELECT
+    CONTRIB_0000.INFO_ROW:REG::string as REG1,
+    CONTRIB_0000.INFO_ROW:CNPJ::string as CNPJ1,
+    CONTRIB_C010.INFO_ROW:REG::string as REG2,
+    CONTRIB_C010.INFO_ROW:CNPJ::string as CNPJ2
+FROM
+    PRATA.CONTRIB_C010
+LEFT JOIN
+    PRATA.CONTRIB_C001 ON
+        CONTRIB_C001.FILE_ID = CONTRIB_C010.FILE_ID AND
+        CONTRIB_C001.ROW_NUMBER = CONTRIB_C010.FATHER_ROW
+LEFT JOIN
+    PRATA.CONTRIB_0000 ON
+        CONTRIB_0000.FILE_ID = CONTRIB_C001.FILE_ID AND
+        CONTRIB_0000.ROW_NUMBER = CONTRIB_C001.FATHER_ROW
+  )
+/* {"app": "dbt", "dbt_version": "1.10.11", "profile_name": "meu_projeto", "target_name": "dev", "node_id": "model.meu_projeto.stg_vendas_clientes"} */;
+[0m11:28:50.756228 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.516 seconds
+[0m11:28:50.759528 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '51282524-c4d7-4149-a6d8-c448cf73b6f5', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000015AEF59BB10>]}
+[0m11:28:50.760563 [info ] [Thread-1 (]: 3 of 4 OK created sql view model OURO.stg_vendas_clientes ...................... [[32mSUCCESS 1[0m in 0.57s]
+[0m11:28:50.761459 [debug] [Thread-1 (]: Finished running node model.meu_projeto.stg_vendas_clientes
+[0m11:28:50.761804 [debug] [Thread-1 (]: Began running node model.meu_projeto.my_second_dbt_model
+[0m11:28:50.762165 [info ] [Thread-1 (]: 4 of 4 START sql view model OURO.my_second_dbt_model ........................... [RUN]
+[0m11:28:50.762840 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.meu_projeto.stg_vendas_clientes, now model.meu_projeto.my_second_dbt_model)
+[0m11:28:50.763128 [debug] [Thread-1 (]: Began compiling node model.meu_projeto.my_second_dbt_model
+[0m11:28:50.767166 [debug] [Thread-1 (]: Writing injected SQL for node "model.meu_projeto.my_second_dbt_model"
+[0m11:28:50.769919 [debug] [Thread-1 (]: Began executing node model.meu_projeto.my_second_dbt_model
+[0m11:28:50.777356 [debug] [Thread-1 (]: Writing runtime sql for node "model.meu_projeto.my_second_dbt_model"
+[0m11:28:50.780497 [debug] [Thread-1 (]: Using snowflake connection "model.meu_projeto.my_second_dbt_model"
+[0m11:28:50.781377 [debug] [Thread-1 (]: On model.meu_projeto.my_second_dbt_model: create or replace   view ITAX.OURO.my_second_dbt_model
+  
+  
+  
+  
+  as (
+    -- Use the `ref` function to select from other models
+
+select *
+from ITAX.OURO.my_first_dbt_model
+where id = 1
+  )
+/* {"app": "dbt", "dbt_version": "1.10.11", "profile_name": "meu_projeto", "target_name": "dev", "node_id": "model.meu_projeto.my_second_dbt_model"} */;
+[0m11:28:51.186234 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.404 seconds
+[0m11:28:51.189894 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '51282524-c4d7-4149-a6d8-c448cf73b6f5', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000015AEF54A950>]}
+[0m11:28:51.190915 [info ] [Thread-1 (]: 4 of 4 OK created sql view model OURO.my_second_dbt_model ...................... [[32mSUCCESS 1[0m in 0.43s]
+[0m11:28:51.192324 [debug] [Thread-1 (]: Finished running node model.meu_projeto.my_second_dbt_model
+[0m11:28:51.194955 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m11:28:51.195792 [debug] [MainThread]: Connection 'list_ITAX' was left open.
+[0m11:28:51.196572 [debug] [MainThread]: On list_ITAX: Close
+[0m11:28:51.490755 [debug] [MainThread]: Connection 'list_ITAX_OURO' was left open.
+[0m11:28:51.491416 [debug] [MainThread]: On list_ITAX_OURO: Close
+[0m11:28:51.798382 [debug] [MainThread]: Connection 'model.meu_projeto.my_second_dbt_model' was left open.
+[0m11:28:51.799013 [debug] [MainThread]: On model.meu_projeto.my_second_dbt_model: Close
+[0m11:28:52.153734 [info ] [MainThread]: 
+[0m11:28:52.155052 [info ] [MainThread]: Finished running 1 incremental model, 1 table model, 2 view models in 0 hours 0 minutes and 15.85 seconds (15.85s).
+[0m11:28:52.157582 [debug] [MainThread]: Command end result
+[0m11:28:52.192541 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\gbrietzig\OneDrive - MARTINELLI ADVOGADOS\Área de Trabalho\ambiente\dbt\meu_projeto\target\manifest.json
+[0m11:28:52.199602 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\gbrietzig\OneDrive - MARTINELLI ADVOGADOS\Área de Trabalho\ambiente\dbt\meu_projeto\target\semantic_manifest.json
+[0m11:28:52.209697 [debug] [MainThread]: Wrote artifact RunExecutionResult to C:\Users\gbrietzig\OneDrive - MARTINELLI ADVOGADOS\Área de Trabalho\ambiente\dbt\meu_projeto\target\run_results.json
+[0m11:28:52.210325 [info ] [MainThread]: 
+[0m11:28:52.211373 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m11:28:52.211796 [info ] [MainThread]: 
+[0m11:28:52.212310 [info ] [MainThread]: Done. PASS=4 WARN=0 ERROR=0 SKIP=0 NO-OP=0 TOTAL=4
+[0m11:28:52.213935 [debug] [MainThread]: Command `dbt run` succeeded at 11:28:52.213815 after 19.29 seconds
+[0m11:28:52.214268 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000015AD3BAC7C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000015ACD210C20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000015AEE542A50>]}
+[0m11:28:52.214584 [debug] [MainThread]: Flushing usage events
+[0m11:28:53.175945 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m18:03:06.469218 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013E87460440>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013E84D6DD10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013E882B3D90>]}
+
+
+============================== 18:03:06.495726 | 333ec8a1-c7f8-43f7-91e5-5ce61a3c6229 ==============================
+[0m18:03:06.495726 [info ] [MainThread]: Running with dbt=1.10.11
+[0m18:03:06.497256 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'use_experimental_parser': 'False', 'cache_selected_only': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\gbrietzig\\OneDrive - MARTINELLI ADVOGADOS\\Área de Trabalho\\ambiente\\dbt\\meu_projeto', 'debug': 'False', 'static_parser': 'True', 'log_cache_events': 'False', 'empty': 'None', 'log_format': 'default', 'quiet': 'False', 'use_colors': 'True', 'partial_parse': 'True', 'version_check': 'True', 'log_path': 'C:\\Users\\gbrietzig\\OneDrive - MARTINELLI ADVOGADOS\\Área de Trabalho\\ambiente\\dbt\\meu_projeto\\logs', 'introspect': 'True', 'no_print': 'None', 'fail_fast': 'False', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'invocation_command': 'dbt debug', 'send_anonymous_usage_stats': 'True', 'indirect_selection': 'eager', 'write_json': 'True', 'target_path': 'None'}
+[0m18:03:06.787972 [info ] [MainThread]: dbt version: 1.10.11
+[0m18:03:06.789242 [info ] [MainThread]: python version: 3.13.2
+[0m18:03:06.790249 [info ] [MainThread]: python path: C:\Users\gbrietzig\OneDrive - MARTINELLI ADVOGADOS\Área de Trabalho\ambiente\venv_ambiente\Scripts\python.exe
+[0m18:03:06.791233 [info ] [MainThread]: os info: Windows-11-10.0.22631-SP0
+[0m18:03:08.507925 [info ] [MainThread]: Using profiles dir at C:\Users\gbrietzig\OneDrive - MARTINELLI ADVOGADOS\Área de Trabalho\ambiente\dbt\meu_projeto
+[0m18:03:08.508676 [info ] [MainThread]: Using profiles.yml file at C:\Users\gbrietzig\OneDrive - MARTINELLI ADVOGADOS\Área de Trabalho\ambiente\dbt\meu_projeto\profiles.yml
+[0m18:03:08.509266 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\gbrietzig\OneDrive - MARTINELLI ADVOGADOS\Área de Trabalho\ambiente\dbt\meu_projeto\dbt_project.yml
+[0m18:03:08.518313 [info ] [MainThread]: adapter type: snowflake
+[0m18:03:08.519220 [info ] [MainThread]: adapter version: 1.10.2
+[0m18:03:08.622233 [info ] [MainThread]: Configuration:
+[0m18:03:08.622853 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m18:03:08.623543 [info ] [MainThread]:   dbt_project.yml file [[32mOK found and valid[0m]
+[0m18:03:08.624050 [info ] [MainThread]: Required dependencies:
+[0m18:03:08.624571 [debug] [MainThread]: Executing "git --help"
+[0m18:03:08.734112 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m18:03:08.735048 [debug] [MainThread]: STDERR: "b''"
+[0m18:03:08.735471 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m18:03:08.735971 [info ] [MainThread]: Connection:
+[0m18:03:08.736549 [info ] [MainThread]:   account: ROVQFNO-HYA59989
+[0m18:03:08.737136 [info ] [MainThread]:   user: GUSTAVO.BRIETZIG
+[0m18:03:08.737625 [info ] [MainThread]:   database: ITAX
+[0m18:03:08.738214 [info ] [MainThread]:   warehouse: COMPUTE_WH
+[0m18:03:08.738795 [info ] [MainThread]:   role: ACCOUNTADMIN
+[0m18:03:08.739530 [info ] [MainThread]:   schema: GOLD
+[0m18:03:08.740108 [info ] [MainThread]:   authenticator: None
+[0m18:03:08.740641 [info ] [MainThread]:   oauth_client_id: None
+[0m18:03:08.741169 [info ] [MainThread]:   query_tag: None
+[0m18:03:08.741659 [info ] [MainThread]:   client_session_keep_alive: False
+[0m18:03:08.742311 [info ] [MainThread]:   host: None
+[0m18:03:08.742954 [info ] [MainThread]:   port: None
+[0m18:03:08.743737 [info ] [MainThread]:   proxy_host: None
+[0m18:03:08.744249 [info ] [MainThread]:   proxy_port: None
+[0m18:03:08.744739 [info ] [MainThread]:   protocol: None
+[0m18:03:08.745232 [info ] [MainThread]:   connect_retries: 1
+[0m18:03:08.745575 [info ] [MainThread]:   connect_timeout: None
+[0m18:03:08.746148 [info ] [MainThread]:   retry_on_database_errors: False
+[0m18:03:08.747161 [info ] [MainThread]:   retry_all: False
+[0m18:03:08.748009 [info ] [MainThread]:   insecure_mode: False
+[0m18:03:08.749764 [info ] [MainThread]:   reuse_connections: True
+[0m18:03:08.751314 [info ] [MainThread]:   s3_stage_vpce_dns_name: None
+[0m18:03:08.752419 [info ] [MainThread]: Registered adapter: snowflake=1.10.2
+[0m18:03:09.716096 [debug] [MainThread]: Acquiring new snowflake connection 'debug'
+[0m18:03:16.696248 [debug] [MainThread]: Using snowflake connection "debug"
+[0m18:03:16.697031 [debug] [MainThread]: On debug: select 1 as id
+[0m18:03:16.697597 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m18:03:20.085813 [debug] [MainThread]: SQL status: SUCCESS 1 in 3.386 seconds
+[0m18:03:20.087831 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m18:03:20.089682 [info ] [MainThread]: [32mAll checks passed![0m
+[0m18:03:20.091981 [debug] [MainThread]: Command `dbt debug` succeeded at 18:03:20.091772 after 13.80 seconds
+[0m18:03:20.092855 [debug] [MainThread]: Connection 'debug' was left open.
+[0m18:03:20.093848 [debug] [MainThread]: On debug: Close
+[0m18:03:20.393693 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013EA25EF100>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013EA2D8C290>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013EA272CC00>]}
+[0m18:03:20.395025 [debug] [MainThread]: Flushing usage events
+[0m18:03:21.445013 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m18:03:28.353615 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001ED832C0440>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001ED80C7DD10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001ED84117D90>]}
+
+
+============================== 18:03:28.365826 | 9be70473-7949-487b-917a-5198564396c2 ==============================
+[0m18:03:28.365826 [info ] [MainThread]: Running with dbt=1.10.11
+[0m18:03:28.367398 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'use_experimental_parser': 'False', 'cache_selected_only': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\gbrietzig\\OneDrive - MARTINELLI ADVOGADOS\\Área de Trabalho\\ambiente\\dbt\\meu_projeto', 'debug': 'False', 'static_parser': 'True', 'log_cache_events': 'False', 'empty': 'False', 'quiet': 'False', 'log_format': 'default', 'use_colors': 'True', 'partial_parse': 'True', 'version_check': 'True', 'log_path': 'C:\\Users\\gbrietzig\\OneDrive - MARTINELLI ADVOGADOS\\Área de Trabalho\\ambiente\\dbt\\meu_projeto\\logs', 'introspect': 'True', 'invocation_command': 'dbt run', 'fail_fast': 'False', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'no_print': 'None', 'send_anonymous_usage_stats': 'True', 'indirect_selection': 'eager', 'write_json': 'True', 'target_path': 'None'}
+[0m18:03:29.928824 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '9be70473-7949-487b-917a-5198564396c2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001ED83470FC0>]}
+[0m18:03:29.977177 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '9be70473-7949-487b-917a-5198564396c2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001ED9E4BDAE0>]}
+[0m18:03:29.978733 [info ] [MainThread]: Registered adapter: snowflake=1.10.2
+[0m18:03:30.835919 [debug] [MainThread]: checksum: 5335e1629744fab92fa7809c625edbb36f0d7063a879d6215c971798f27e66f9, vars: {}, profile: , target: , version: 1.10.11
+[0m18:03:30.933671 [info ] [MainThread]: Unable to do partial parsing because profile has changed
+[0m18:03:30.934407 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '9be70473-7949-487b-917a-5198564396c2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001ED9E500850>]}
+[0m18:03:33.179741 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '9be70473-7949-487b-917a-5198564396c2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001ED9E6EFC50>]}
+[0m18:03:33.237338 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\gbrietzig\OneDrive - MARTINELLI ADVOGADOS\Área de Trabalho\ambiente\dbt\meu_projeto\target\manifest.json
+[0m18:03:33.244153 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\gbrietzig\OneDrive - MARTINELLI ADVOGADOS\Área de Trabalho\ambiente\dbt\meu_projeto\target\semantic_manifest.json
+[0m18:03:33.344695 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '9be70473-7949-487b-917a-5198564396c2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001ED9ED52430>]}
+[0m18:03:33.345607 [info ] [MainThread]: Found 4 models, 10 data tests, 479 macros
+[0m18:03:33.346957 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '9be70473-7949-487b-917a-5198564396c2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001ED9E937450>]}
+[0m18:03:33.349611 [info ] [MainThread]: 
+[0m18:03:33.350644 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m18:03:33.351679 [info ] [MainThread]: 
+[0m18:03:33.353449 [debug] [MainThread]: Acquiring new snowflake connection 'master'
+[0m18:03:33.360929 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_ITAX'
+[0m18:03:33.538636 [debug] [ThreadPool]: Using snowflake connection "list_ITAX"
+[0m18:03:33.539064 [debug] [ThreadPool]: On list_ITAX: show terse schemas in database ITAX
+    limit 10000
+/* {"app": "dbt", "dbt_version": "1.10.11", "profile_name": "meu_projeto", "target_name": "dev", "connection_name": "list_ITAX"} */
+[0m18:03:33.539344 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m18:03:37.024785 [debug] [ThreadPool]: SQL status: SUCCESS 5 in 3.485 seconds
+[0m18:03:37.028803 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_ITAX_GOLD'
+[0m18:03:37.044426 [debug] [ThreadPool]: Using snowflake connection "list_ITAX_GOLD"
+[0m18:03:37.044938 [debug] [ThreadPool]: On list_ITAX_GOLD: show objects in ITAX.GOLD
+    limit 10000
+    
+
+/* {"app": "dbt", "dbt_version": "1.10.11", "profile_name": "meu_projeto", "target_name": "dev", "connection_name": "list_ITAX_GOLD"} */;
+[0m18:03:37.045220 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m18:03:40.238154 [debug] [ThreadPool]: SQL status: SUCCESS 0 in 3.193 seconds
+[0m18:03:40.242897 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '9be70473-7949-487b-917a-5198564396c2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001ED9F189610>]}
+[0m18:03:40.275094 [debug] [Thread-1 (]: Began running node model.meu_projeto.fato_vendas
+[0m18:03:40.279892 [info ] [Thread-1 (]: 1 of 4 START sql incremental model GOLD.fato_vendas ............................ [RUN]
+[0m18:03:40.283894 [debug] [Thread-1 (]: Acquiring new snowflake connection 'model.meu_projeto.fato_vendas'
+[0m18:03:40.285999 [debug] [Thread-1 (]: Began compiling node model.meu_projeto.fato_vendas
+[0m18:03:40.301596 [debug] [Thread-1 (]: Writing injected SQL for node "model.meu_projeto.fato_vendas"
+[0m18:03:40.309755 [debug] [Thread-1 (]: Began executing node model.meu_projeto.fato_vendas
+[0m18:03:40.369682 [debug] [Thread-1 (]: Writing runtime sql for node "model.meu_projeto.fato_vendas"
+[0m18:03:40.375024 [debug] [Thread-1 (]: Using snowflake connection "model.meu_projeto.fato_vendas"
+[0m18:03:40.375457 [debug] [Thread-1 (]: On model.meu_projeto.fato_vendas: create or replace transient table ITAX.GOLD.fato_vendas
+    
+    
+    
+    as (
+
+SELECT
+    CONTRIB_0000.INFO_ROW:REG::string as REG1,
+    CONTRIB_0000.INFO_ROW:CNPJ::string as CNPJ1,
+    CONTRIB_C010.INFO_ROW:REG::string as REG2,
+    CONTRIB_C010.INFO_ROW:CNPJ::string as CNPJ2
+FROM
+    SILVER.CONTRIB_C010
+LEFT JOIN
+    SILVER.CONTRIB_C001 ON
+        CONTRIB_C001.FILE_ID = CONTRIB_C010.FILE_ID AND
+        CONTRIB_C001.ROW_NUMBER = CONTRIB_C010.FATHER_ROW
+LEFT JOIN
+    SILVER.CONTRIB_0000 ON
+        CONTRIB_0000.FILE_ID = CONTRIB_C001.FILE_ID AND
+        CONTRIB_0000.ROW_NUMBER = CONTRIB_C001.FATHER_ROW
+    )
+
+/* {"app": "dbt", "dbt_version": "1.10.11", "profile_name": "meu_projeto", "target_name": "dev", "node_id": "model.meu_projeto.fato_vendas"} */;
+[0m18:03:40.375818 [debug] [Thread-1 (]: Opening a new connection, currently in state init
+[0m18:03:44.945791 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 4.570 seconds
+[0m18:03:44.972478 [debug] [Thread-1 (]: Applying DROP to: ITAX.GOLD.fato_vendas__dbt_tmp
+[0m18:03:44.978063 [debug] [Thread-1 (]: Using snowflake connection "model.meu_projeto.fato_vendas"
+[0m18:03:44.978452 [debug] [Thread-1 (]: On model.meu_projeto.fato_vendas: drop view if exists ITAX.GOLD.fato_vendas__dbt_tmp cascade
+/* {"app": "dbt", "dbt_version": "1.10.11", "profile_name": "meu_projeto", "target_name": "dev", "node_id": "model.meu_projeto.fato_vendas"} */
+[0m18:03:45.334962 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.356 seconds
+[0m18:03:45.375673 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '9be70473-7949-487b-917a-5198564396c2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001ED9FB641B0>]}
+[0m18:03:45.377410 [info ] [Thread-1 (]: 1 of 4 OK created sql incremental model GOLD.fato_vendas ....................... [[32mSUCCESS 1[0m in 5.08s]
+[0m18:03:45.380987 [debug] [Thread-1 (]: Finished running node model.meu_projeto.fato_vendas
+[0m18:03:45.381857 [debug] [Thread-1 (]: Began running node model.meu_projeto.my_first_dbt_model
+[0m18:03:45.382646 [info ] [Thread-1 (]: 2 of 4 START sql table model GOLD.my_first_dbt_model ........................... [RUN]
+[0m18:03:45.384314 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.meu_projeto.fato_vendas, now model.meu_projeto.my_first_dbt_model)
+[0m18:03:45.385085 [debug] [Thread-1 (]: Began compiling node model.meu_projeto.my_first_dbt_model
+[0m18:03:45.388407 [debug] [Thread-1 (]: Writing injected SQL for node "model.meu_projeto.my_first_dbt_model"
+[0m18:03:45.394689 [debug] [Thread-1 (]: Began executing node model.meu_projeto.my_first_dbt_model
+[0m18:03:45.406711 [debug] [Thread-1 (]: Writing runtime sql for node "model.meu_projeto.my_first_dbt_model"
+[0m18:03:45.413086 [debug] [Thread-1 (]: Using snowflake connection "model.meu_projeto.my_first_dbt_model"
+[0m18:03:45.413541 [debug] [Thread-1 (]: On model.meu_projeto.my_first_dbt_model: create or replace transient table ITAX.GOLD.my_first_dbt_model
+    
+    
+    
+    as (/*
+    Welcome to your first dbt model!
+    Did you know that you can also configure models directly within SQL files?
+    This will override configurations stated in dbt_project.yml
+
+    Try changing "table" to "view" below
+*/
+
+
+
+with source_data as (
+
+    select 1 as id
+    union all
+    select null as id
+
+)
+
+select *
+from source_data
+
+/*
+    Uncomment the line below to remove records with null `id` values
+*/
+
+-- where id is not null
+    )
+
+/* {"app": "dbt", "dbt_version": "1.10.11", "profile_name": "meu_projeto", "target_name": "dev", "node_id": "model.meu_projeto.my_first_dbt_model"} */;
+[0m18:03:46.974584 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 1.561 seconds
+[0m18:03:46.976466 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '9be70473-7949-487b-917a-5198564396c2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001ED9FB5CE10>]}
+[0m18:03:46.977554 [info ] [Thread-1 (]: 2 of 4 OK created sql table model GOLD.my_first_dbt_model ...................... [[32mSUCCESS 1[0m in 1.59s]
+[0m18:03:46.978551 [debug] [Thread-1 (]: Finished running node model.meu_projeto.my_first_dbt_model
+[0m18:03:46.978949 [debug] [Thread-1 (]: Began running node model.meu_projeto.stg_vendas_clientes
+[0m18:03:46.979821 [info ] [Thread-1 (]: 3 of 4 START sql view model GOLD.stg_vendas_clientes ........................... [RUN]
+[0m18:03:46.980350 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.meu_projeto.my_first_dbt_model, now model.meu_projeto.stg_vendas_clientes)
+[0m18:03:46.980763 [debug] [Thread-1 (]: Began compiling node model.meu_projeto.stg_vendas_clientes
+[0m18:03:46.983179 [debug] [Thread-1 (]: Writing injected SQL for node "model.meu_projeto.stg_vendas_clientes"
+[0m18:03:46.985627 [debug] [Thread-1 (]: Began executing node model.meu_projeto.stg_vendas_clientes
+[0m18:03:47.011495 [debug] [Thread-1 (]: Writing runtime sql for node "model.meu_projeto.stg_vendas_clientes"
+[0m18:03:47.016518 [debug] [Thread-1 (]: Using snowflake connection "model.meu_projeto.stg_vendas_clientes"
+[0m18:03:47.017309 [debug] [Thread-1 (]: On model.meu_projeto.stg_vendas_clientes: create or replace   view ITAX.GOLD.stg_vendas_clientes
+  
+  
+  
+  
+  as (
+    
+
+SELECT
+    CONTRIB_0000.INFO_ROW:REG::string as REG1,
+    CONTRIB_0000.INFO_ROW:CNPJ::string as CNPJ1,
+    CONTRIB_C010.INFO_ROW:REG::string as REG2,
+    CONTRIB_C010.INFO_ROW:CNPJ::string as CNPJ2
+FROM
+    SILVER.CONTRIB_C010
+LEFT JOIN
+    SILVER.CONTRIB_C001 ON
+        CONTRIB_C001.FILE_ID = CONTRIB_C010.FILE_ID AND
+        CONTRIB_C001.ROW_NUMBER = CONTRIB_C010.FATHER_ROW
+LEFT JOIN
+    SILVER.CONTRIB_0000 ON
+        CONTRIB_0000.FILE_ID = CONTRIB_C001.FILE_ID AND
+        CONTRIB_0000.ROW_NUMBER = CONTRIB_C001.FATHER_ROW
+  )
+/* {"app": "dbt", "dbt_version": "1.10.11", "profile_name": "meu_projeto", "target_name": "dev", "node_id": "model.meu_projeto.stg_vendas_clientes"} */;
+[0m18:03:47.486120 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.468 seconds
+[0m18:03:47.489460 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '9be70473-7949-487b-917a-5198564396c2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001ED9FB39F50>]}
+[0m18:03:47.490510 [info ] [Thread-1 (]: 3 of 4 OK created sql view model GOLD.stg_vendas_clientes ...................... [[32mSUCCESS 1[0m in 0.51s]
+[0m18:03:47.491868 [debug] [Thread-1 (]: Finished running node model.meu_projeto.stg_vendas_clientes
+[0m18:03:47.492863 [debug] [Thread-1 (]: Began running node model.meu_projeto.my_second_dbt_model
+[0m18:03:47.493961 [info ] [Thread-1 (]: 4 of 4 START sql view model GOLD.my_second_dbt_model ........................... [RUN]
+[0m18:03:47.495416 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.meu_projeto.stg_vendas_clientes, now model.meu_projeto.my_second_dbt_model)
+[0m18:03:47.496202 [debug] [Thread-1 (]: Began compiling node model.meu_projeto.my_second_dbt_model
+[0m18:03:47.500744 [debug] [Thread-1 (]: Writing injected SQL for node "model.meu_projeto.my_second_dbt_model"
+[0m18:03:47.505585 [debug] [Thread-1 (]: Began executing node model.meu_projeto.my_second_dbt_model
+[0m18:03:47.511283 [debug] [Thread-1 (]: Writing runtime sql for node "model.meu_projeto.my_second_dbt_model"
+[0m18:03:47.518927 [debug] [Thread-1 (]: Using snowflake connection "model.meu_projeto.my_second_dbt_model"
+[0m18:03:47.521698 [debug] [Thread-1 (]: On model.meu_projeto.my_second_dbt_model: create or replace   view ITAX.GOLD.my_second_dbt_model
+  
+  
+  
+  
+  as (
+    -- Use the `ref` function to select from other models
+
+select *
+from ITAX.GOLD.my_first_dbt_model
+where id = 1
+  )
+/* {"app": "dbt", "dbt_version": "1.10.11", "profile_name": "meu_projeto", "target_name": "dev", "node_id": "model.meu_projeto.my_second_dbt_model"} */;
+[0m18:03:48.009019 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.485 seconds
+[0m18:03:48.011203 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '9be70473-7949-487b-917a-5198564396c2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001ED9F3C8EC0>]}
+[0m18:03:48.011790 [info ] [Thread-1 (]: 4 of 4 OK created sql view model GOLD.my_second_dbt_model ...................... [[32mSUCCESS 1[0m in 0.52s]
+[0m18:03:48.012846 [debug] [Thread-1 (]: Finished running node model.meu_projeto.my_second_dbt_model
+[0m18:03:48.014421 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m18:03:48.014686 [debug] [MainThread]: Connection 'list_ITAX' was left open.
+[0m18:03:48.014925 [debug] [MainThread]: On list_ITAX: Close
+[0m18:03:48.317101 [debug] [MainThread]: Connection 'list_ITAX_GOLD' was left open.
+[0m18:03:48.317979 [debug] [MainThread]: On list_ITAX_GOLD: Close
+[0m18:03:48.610277 [debug] [MainThread]: Connection 'model.meu_projeto.my_second_dbt_model' was left open.
+[0m18:03:48.611208 [debug] [MainThread]: On model.meu_projeto.my_second_dbt_model: Close
+[0m18:03:48.933194 [info ] [MainThread]: 
+[0m18:03:48.934412 [info ] [MainThread]: Finished running 1 incremental model, 1 table model, 2 view models in 0 hours 0 minutes and 15.58 seconds (15.58s).
+[0m18:03:48.935540 [debug] [MainThread]: Command end result
+[0m18:03:48.960750 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\gbrietzig\OneDrive - MARTINELLI ADVOGADOS\Área de Trabalho\ambiente\dbt\meu_projeto\target\manifest.json
+[0m18:03:48.966099 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\gbrietzig\OneDrive - MARTINELLI ADVOGADOS\Área de Trabalho\ambiente\dbt\meu_projeto\target\semantic_manifest.json
+[0m18:03:48.980097 [debug] [MainThread]: Wrote artifact RunExecutionResult to C:\Users\gbrietzig\OneDrive - MARTINELLI ADVOGADOS\Área de Trabalho\ambiente\dbt\meu_projeto\target\run_results.json
+[0m18:03:48.980528 [info ] [MainThread]: 
+[0m18:03:48.981316 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m18:03:48.981791 [info ] [MainThread]: 
+[0m18:03:48.982338 [info ] [MainThread]: Done. PASS=4 WARN=0 ERROR=0 SKIP=0 NO-OP=0 TOTAL=4
+[0m18:03:48.985236 [debug] [MainThread]: Command `dbt run` succeeded at 18:03:48.984816 after 20.87 seconds
+[0m18:03:48.986060 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001ED8338B6B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001ED9FB8C950>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001ED9FB8E3F0>]}
+[0m18:03:48.986592 [debug] [MainThread]: Flushing usage events
+[0m18:03:49.965747 [debug] [MainThread]: An error was encountered while trying to flush usage events
