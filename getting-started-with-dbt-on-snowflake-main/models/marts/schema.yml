@@ -1,0 +1,24 @@
+version: 2
+
+models:
+  - name: stg_vendas_clientes
+    description: "View que junta clientes e vendas da camada prata."
+    columns:
+      - name: id_venda
+        tests:
+          - not_null
+          - unique
+      - name: id_cliente
+        tests:
+          - not_null
+
+  - name: fato_vendas
+    description: "Tabela incremental de fatos de vendas (camada ouro)."
+    columns:
+      - name: id_venda
+        tests:
+          - not_null
+          - unique
+      - name: cliente
+        tests:
+          - not_null

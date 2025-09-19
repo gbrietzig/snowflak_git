@@ -1,0 +1,12 @@
+meu_projeto:
+  target: dev
+  outputs:
+    dev:
+      type: snowflake
+      account: ROVQFNO-HYA59989
+      user: GUSTAVO.BRIETZIG
+      password: "@Senha12345678"
+      role: ACCOUNTADMIN
+      database: ITAX
+      warehouse: COMPUTE_WH
+      schema: GOLD
