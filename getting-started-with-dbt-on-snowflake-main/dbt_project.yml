@@ -1,8 +1,0 @@
-name: 'meu_projeto'
-version: '1.0.0'
-profile: 'meu_projeto'
-
-models:
-  meu_projeto:
-    marts:
-      +materialized: table
